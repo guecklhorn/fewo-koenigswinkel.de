@@ -6,11 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="<?= $page->description()->esc()->isNotEmpty() ? $page->description()->esc() : $site->description()->esc() ?>">
         <title><?= $site->title()->esc() ?> | <?= $page->title()->esc() ?></title>
-        <link href="<?= url('assets/fonts/fontawesome/webfonts/custom-icons.woff2') ?>" as="font" crossorigin="anonymous">
-        <link rel="preload" href="<?= url('assets/fonts/IBMPlexMono/IBMPlexMono-Regular.woff2') ?>" as="font" crossorigin="anonymous">
-        <link rel="preload" href="<?= url('assets/fonts/IBMPlexMono/IBMPlexMono-Italic.woff2') ?>" as="font" crossorigin="anonymous">
-        <link rel="preload" href="<?= url('assets/fonts/IBMPlexMono/IBMPlexMono-SemiBold.woff2') ?>" as="font" crossorigin="anonymous">
-        <link rel="preload" href="<?= url('assets/fonts/IBMPlexMono/IBMPlexMono-SemiBoldItalic.woff2') ?>" as="font" crossorigin="anonymous">
+        <link rel="preload" href="<?= url('assets/fonts/Roboto-Slab/RobotoSlab-VariableFont_wght.ttf') ?>" as="font" crossorigin="anonymous">
         <?= css([
             'assets/css/styles.css',
             '@auto'
@@ -21,4 +17,5 @@
         <?php endif; ?>
         <?php snippet('ogp') ?>
     </head>
-    <body class="">
+    <body class="font-serif">
+        <div class="font-light hover:font-bold transition-all duration-300 text-3xl">Hello World!</div>
