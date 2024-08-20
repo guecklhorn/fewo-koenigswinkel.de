@@ -1,21 +1,19 @@
 {
-  "name": "fewo-koenigswinkel.de",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "watch": "npx tailwindcss -i ./src/css/app.css -o ./assets/css/styles.css --content './site/**/*.php' -w",
-    "build:css": "npx tailwindcss -i ./src/css/app.css -o ./assets/css/styles.css --content './site/**/*.php' -m",
-    "build:sass": "sass --no-source-map --style=compressed node_modules/swiper/swiper.scss assets/css/templates/article.css",
-    "build:js-metar": "uglifyjs src/js/metar.js -o assets/js/metar.js",
-    "build:js-webcam": "uglifyjs src/js/webcam.js -o assets/js/templates/webcam.js",
-    "build:js": "uglifyjs node_modules/lazysizes/lazysizes.js node_modules/swiper/swiper-bundle.js src/js/app.js src/js/event-filter.js src/js/drag-to-scroll.js src/js/slider.js -o assets/js/scripts.js",
-    "build:js-all": "npm run build:js-metar && npm run build:js-webcam && npm run build:js"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.14",
-    "tailwindcss": "^3.4.10"
-  }
+    "name": "fewo-koenigswinkel.de",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "npx tailwindcss -i ./src/css/app.css -o ./assets/css/styles.css --content './site/**/*.php' -w",
+        "build:css": "npx tailwindcss -i ./src/css/app.css -o ./assets/css/styles.css --content './site/**/*.php' -m",
+        "build:js": "uglifyjs src/js/app.js node_modules/@preline/collapse/index.js -o assets/js/scripts.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@preline/collapse": "^2.4.1",
+        "@tailwindcss/typography": "^0.5.14",
+        "tailwindcss": "^3.4.10",
+        "uglify-js": "^3.19.2"
+    }
 }

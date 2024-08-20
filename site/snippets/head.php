@@ -17,5 +17,4 @@
         <?php endif; ?>
         <?php snippet('ogp') ?>
     </head>
-    <body class="font-serif">
-        <div class="font-light hover:font-bold transition-all duration-300 text-3xl">Hello World!</div>
+    <body class="font-serif text-black">

@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "RobotoSlab";
+        src: url("../fonts/Roboto-Slab/RobotoSlab-VariableFont_wght.ttf")
+            format("truetype-variations");
+        font-weight: 100 700;
+        font-style: normal;
+        font-display: optional;
+    }
+}
+
+@layer components {
+    .hamburger-top,
+    .hamburger-bottom {
+        transform-origin: 34px 2px;
+        transition: transform 500ms cubic-bezier(0.8, -1.1, 0.5, 1.9);
+    }
+
+    .hamburger-circle {
+        @apply stroke-current;
+        stroke-linecap: round;
+        stroke-dasharray: 1 100 32 300;
+        stroke-dashoffset: 101;
+        transition: all 750ms ease;
+    }
+
+    .is--open .hamburger-circle {
+        stroke-dasharray: 1 100 190 300;
+        stroke-dashoffset: 1;
+    }
+
+    .is--open .hamburger-top {
+        transform: translateX(-4.5px) rotate(-45deg);
+    }
+
+    .is--open .hamburger-bottom {
+        transform: translateX(-4.5px) rotate(45deg);
+    }
+
+    .link {
+        @apply italic no-underline hover:underline;
+    }
+
+    .prose a:not([class]) {
+        @apply link text-blue-500;
+    }
+
+    .button {
+        @apply bg-gray-500 px-3 py-2 font-bold text-xs rounded hover:bg-green-500 hover:text-white;
+    }
+
+    .button.is--active {
+        @apply bg-green-500 text-white pointer-events-none;
+    }
+
+    .scroll-container {
+        @apply overflow-x-auto lg:!cursor-default;
+        scrollbar-width: none;
+    }
+
+    .scroll-container::-webkit-scrollbar {
+        @apply hidden;
+    }
+}
+
+@layer utilities {
+    .figure {
+        @apply bg-gray-500 aspect-video overflow-hidden relative flex justify-center items-center;
+    }
+}
+
+.cookie-modal {
+    @apply fixed inset-0 z-50 flex items-center justify-center bg-black/75 shadow-xl;
+}
+
+.cookie-modal--hidden {
+    @apply hidden;
+}
+
+.cookie-modal__content {
+    @apply w-full max-w-xl bg-white text-black p-4 sm:p-8;
+}
+
+.cookie-modal__title {
+    @apply mb-2 text-2xl font-bold;
+}
+
+.cookie-modal__text {
+    @apply mb-2 text-sm;
+}
+
+.cookie-modal__text a {
+    @apply mt-2 block !underline;
+}
+
+.cookie-modal__options {
+    @apply my-6 flex flex-wrap flex-col sm:flex-row justify-between;
+}
+
+.cookie-modal__option {
+    @apply flex cursor-pointer items-center leading-loose;
+}
+
+.cookie-modal__option.disabled {
+    @apply cursor-not-allowed opacity-50;
+}
+
+.cookie-modal__checkbox {
+    @apply hidden;
+}
+
+.cookie-modal__checkbox:checked ~ .cookie-modal__check {
+    @apply border-black bg-black;
+}
+
+.cookie-modal__check {
+    @apply mr-2 flex h-5 w-5 items-center justify-center border-2;
+}
+
+.cookie-modal__check svg {
+    @apply stroke-white;
+}
+
+.cookie-modal__label {
+    @apply whitespace-nowrap;
+}
+
+.cookie-modal__buttons {
+    @apply flex flex-col-reverse sm:flex-row-reverse flex-col gap-4;
+}
+
+.cookie-modal__button {
+    @apply w-full border-2 border-black px-4 py-2 text-black font-bold text-sm text-center rounded;
+}
+
+.cookie-modal__button.primary {
+    @apply ml-auto bg-black text-white;
+}
+
+.cookie-modal__button.hide {
+    @apply hidden;
+}
+
+/* Swiper */
+.swiper-button-prev,
+.swiper-button-next {
+    @apply absolute top-1/2 -translate-y-1/2 text-blue-500 bg-white rounded-full text-2xl w-10 h-10 z-10;
+}
+
+.swiper-button-prev {
+    @apply -left-6;
+}
+
+.swiper-button-next {
+    @apply -right-6;
+}
+
+.swiper-button-disabled i {
+    @apply opacity-25;
+}
