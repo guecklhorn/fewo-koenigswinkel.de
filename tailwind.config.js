@@ -3,6 +3,14 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
     content: [],
     theme: {
+        colors: {
+            transparent: "transparent",
+            current: "currentColor",
+            white: "#ffffff",
+            black: "#030712",
+            gray: "#9ca3af",
+            highlight: "#caa240",
+        },
         container: {
             center: true,
             padding: "1rem",

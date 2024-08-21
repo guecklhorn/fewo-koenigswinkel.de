@@ -2,7 +2,7 @@
     <div class="flex items-center lg:mr-8">
         <a href="<?= $site->url() ?>"
             title="Zur Startseite"
-            class="fill-current w-48">
+            class="fill-highlight w-48">
             <?php snippet('logo') ?>
         </a>
 
