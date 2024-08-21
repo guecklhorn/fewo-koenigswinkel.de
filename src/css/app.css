@@ -155,3 +155,8 @@
 .swiper-button-disabled i {
     @apply opacity-25;
 }
+
+/* Homepage animation */
+.is--animated {
+    @apply opacity-100 translate-y-0;
+}

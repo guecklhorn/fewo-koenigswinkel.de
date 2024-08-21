@@ -3,7 +3,7 @@
                 $footerItems = $pages->find('impressum', 'datenschutz');
                 if ($footerItems and $footerItems->isNotEmpty()):
             ?>
-            <nav class="border-gray border-t py-4 mt-4">
+            <nav class="border-gray border-t py-4 mt-8">
                 <ul class="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-xs">
                     <li class="md:mr-auto">&copy; 2018–<?= date("Y"), " ", $site->title() ?></li>
 

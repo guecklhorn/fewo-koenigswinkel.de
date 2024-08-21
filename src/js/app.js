@@ -1,7 +1,8 @@
 (function () {
     const targetElement = document.querySelector("body"),
         toggleElement = document.querySelectorAll("[data-toggle]"),
-        editCookie = document.querySelectorAll("[data-cockie]");
+        editCookie = document.querySelectorAll("[data-cockie]"),
+        toggleAnimation = document.querySelectorAll("[data-animation]");
 
     toggleElement.forEach((item) => {
         item.addEventListener("click", (event) => {
@@ -20,4 +21,10 @@
     targetElement.addEventListener("cookies:saved", function (event) {
         location.reload();
     });
+
+    setTimeout(function () {
+        toggleAnimation.forEach((item) => {
+            item.classList.add("is--animated");
+        });
+    }, 100);
 })();

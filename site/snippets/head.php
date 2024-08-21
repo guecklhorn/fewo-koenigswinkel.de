@@ -17,4 +17,4 @@
         <?php endif; ?>
         <?php snippet('ogp') ?>
     </head>
-    <body class="font-serif text-black">
+    <body class="overflow-y-scroll antialiased font-serif text-black">
