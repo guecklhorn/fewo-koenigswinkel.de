@@ -27,5 +27,18 @@
             'assets/js/scripts.js',
             '@auto'
         ], true) ?>
+
+        <?= js('media/plugins/michnhokn/cookie-banner/cookie-modal.js', [
+            'defer' => true
+        ]) ?>
+
+        <?php snippet('cookie-modal', [
+            'assets' => false,
+            'showOnFirst' => true,
+        ]) ?>
+
+        <?php if (isFeatureAllowed('checkwxapi')): ?>
+            <?= js('assets/js/metar.js', true) ?>
+        <?php endif; ?>
     </body>
 </html>

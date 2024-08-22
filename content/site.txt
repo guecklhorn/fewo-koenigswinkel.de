@@ -1,1 +1,60 @@
-Title: Site Title
+Title: Ferienwohnung Königswinkel
+
+----
+
+Contact:
+
+Rufen Sie uns an
+**Telefon (tel: 08224 804258 text: 08224 804258 title: Rufen Sie uns an)**
+oder reservieren Sie **(email: info@fewo-koenigswinkel.de text: per E-Mail title: E-Mail an info@fewo-koenigswinkel.de senden).**
+
+----
+
+News:
+
+**Festspielhaus Neuschwanstein:**
+Ludwig, Dream King, Zauberflöte, Cinderella, u. v. m. **Sichern Sie sich vor Reiseantritt die besten Plätze!**
+
+----
+
+Togglewheater: true
+
+----
+
+Files:
+
+- file://G0b3v1MmLztsJVap
+- file://6lNZjmudxXS2C7Pb
+- file://a0C4xA4orqFJ6rcJ
+
+----
+
+Togglecontact: false
+
+----
+
+Togglequotes: false
+
+----
+
+Toggleevent: false
+
+----
+
+Email: info@fewo-koenigswinkel.de
+
+----
+
+Phone: +498224804258
+
+----
+
+Description: Mit seinen Bergen, Burgen und Schlössern faszinierte der Königswinkel bereits König Ludwig II. Die Landschaft um den Forggensee und Füssen bietet eine hervorragende Voraussetzung für einen gelungenen Urlaub im wunderschönen Allgäu.
+
+----
+
+Togglenews: false
+
+----
+
+Quotes: 

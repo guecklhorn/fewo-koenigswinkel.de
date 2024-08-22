@@ -6,9 +6,10 @@
     "scripts": {
         "watch": "npx tailwindcss -i ./src/css/app.css -o ./assets/css/styles.css --content './site/**/*.php' -w",
         "build:css": "npx tailwindcss -i ./src/css/app.css -o ./assets/css/styles.css --content './site/**/*.php' -m",
-        "build:js": "uglifyjs node_modules/lazysizes/lazysizes.js node_modules/@preline/collapse/index.js src/js/app.js -o assets/js/scripts.js"
+        "build:js-metar": "uglifyjs src/js/metar.js -o assets/js/metar.js",
+        "build:js": "uglifyjs node_modules/lazysizes/lazysizes.js node_modules/@preline/collapse/index.js src/js/app.js o assets/js/scripts.js"
     },
-    "author": "",
+    "author": "Andreas Gücklhorn",
     "license": "ISC",
     "devDependencies": {
         "@preline/collapse": "^2.4.1",

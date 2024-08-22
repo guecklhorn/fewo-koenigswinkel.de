@@ -12,4 +12,10 @@ return [
         ],
         'format' => 'webp'
     ],
+    'michnhokn.cookie-banner' => [
+        'features' => [
+            'checkwxapi' => 'Wetter',
+            'openstreetmap' => 'Karte'
+        ],
+    ],
 ];

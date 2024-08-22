@@ -22,9 +22,9 @@
         location.reload();
     });
 
-    setTimeout(function () {
+    window.addEventListener("load", () => {
         toggleAnimation.forEach((item) => {
             item.classList.add("is--animated");
         });
-    }, 100);
+    });
 })();
