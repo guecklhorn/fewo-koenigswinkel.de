@@ -44,7 +44,7 @@
                 </li>
             </ul>
         <?php else: ?>
-            <div class="aspect-square p-4 flex flex-col gap-4 text-center border-2 border-dashed border-muted text-gray justify-center">
+            <div class="cookie-box aspect-square">
                 <?php snippet('cookies', ['title' => 'Um das Wetter zu sehen, musst du die Cookies zulassen.']) ?>
             </div>
         <?php endif; ?>

@@ -14,8 +14,9 @@ return [
     ],
     'michnhokn.cookie-banner' => [
         'features' => [
+            'calendar' => 'Belegungsplan',
             'checkwxapi' => 'Wetter',
-            'openstreetmap' => 'Karte'
+            'googlemaps' => 'Karte'
         ],
     ],
 ];

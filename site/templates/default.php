@@ -6,9 +6,18 @@
 
     <?php snippet('aside-left') ?>
 
-    <article class="col-span-full lg:col-span-3 xl:col-span-2 xl:self-start bg-white prose lg:prose-lg mx-auto">
-        <h1><?= $page->title() ?></h1>
+    <article class="col-span-full lg:col-span-3 xl:col-span-2 xl:self-start bg-white prose lg:prose-lg">
+        <h1 class=""><?= $page->title() ?></h1>
+
+        <?php if ($page->subline()->isNotEmpty()) :?>
+            <h2 class="!-mt-2 !mb-2"><?= $page->subline() ?></h2>
+        <?php endif ?>
+
+        <?php snippet('maps') ?>
+
         <?= $page->text()->kirbytext() ?>
+
+        <?php snippet('calendar') ?>
     </article>
 
     <?php snippet('aside-right') ?>
