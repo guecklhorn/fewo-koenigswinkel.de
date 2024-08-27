@@ -1,0 +1,41 @@
+.fak.fa-arrow-up-right-from-square-light::before, .fa-kit.fa-arrow-up-right-from-square-light::before { content: "\e000"; }
+.fak.fa-bell-regular::before, .fa-kit.fa-bell-regular::before { content: "\e001"; }
+.fak.fa-building-columns-light::before, .fa-kit.fa-building-columns-light::before { content: "\e002"; }
+.fak.fa-cake-candles-light::before, .fa-kit.fa-cake-candles-light::before { content: "\e003"; }
+.fak.fa-calendar-days-light::before, .fa-kit.fa-calendar-days-light::before { content: "\e004"; }
+.fak.fa-caret-up-light::before, .fa-kit.fa-caret-up-light::before { content: "\e005"; }
+.fak.fa-circle-arrow-left-light::before, .fa-kit.fa-circle-arrow-left-light::before { content: "\e006"; }
+.fak.fa-cloud-fog-light::before, .fa-kit.fa-cloud-fog-light::before { content: "\e007"; }
+.fak.fa-envelope-open-text-light::before, .fa-kit.fa-envelope-open-text-light::before { content: "\e008"; }
+.fak.fa-gamepad-modern-light::before, .fa-kit.fa-gamepad-modern-light::before { content: "\e009"; }
+.fak.fa-jet-fighter-light::before, .fa-kit.fa-jet-fighter-light::before { content: "\e00a"; }
+.fak.fa-paper-plane-solid::before, .fa-kit.fa-paper-plane-solid::before { content: "\e00b"; }
+.fak.fa-pen-fancy-light::before, .fa-kit.fa-pen-fancy-light::before { content: "\e00c"; }
+.fak.fa-phone-light::before, .fa-kit.fa-phone-light::before { content: "\e00d"; }
+.fak.fa-plane-departure-light::before, .fa-kit.fa-plane-departure-light::before { content: "\e00e"; }
+.fak.fa-plane-engines-light::before, .fa-kit.fa-plane-engines-light::before { content: "\e00f"; }
+.fak.fa-plane-light::before, .fa-kit.fa-plane-light::before { content: "\e010"; }
+.fak.fa-plane-prop-light::before, .fa-kit.fa-plane-prop-light::before { content: "\e011"; }
+.fak.fa-plane-solid::before, .fa-kit.fa-plane-solid::before { content: "\e012"; }
+.fak.fa-receipt-light::before, .fa-kit.fa-receipt-light::before { content: "\e013"; }
+.fak.fa-temperature-half-light::before, .fa-kit.fa-temperature-half-light::before { content: "\e014"; }
+.fak.fa-wind-light::before, .fa-kit.fa-wind-light::before { content: "\e015"; }
+.fak.fa-windsock-light::before, .fa-kit.fa-windsock-light::before { content: "\e016"; }
+
+.fak, .fa-kit {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome Kit";
+}
+
+@font-face {
+  font-family: "Font Awesome Kit";
+  font-style: normal;
+  font-display: block;
+  src: url("../webfonts/custom-icons.woff2") format("woff2"), url("../webfonts/custom-icons.ttf") format("truetype");
+}

@@ -1,0 +1,13 @@
+{
+    "name": "custom/image",
+    "description": "Extending Kirby's image tag",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Gücklhorn",
+            "email": "andreas@guecklhorn.com"
+        }
+    ],
+    "homepage": "https://guecklhorn.com/"
+}
