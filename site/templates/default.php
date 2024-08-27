@@ -6,7 +6,7 @@
 
     <?php snippet('aside-left') ?>
 
-    <article class="col-span-full lg:col-span-3 xl:col-span-2 xl:self-start bg-white prose lg:prose-lg">
+    <article class="col-span-full lg:col-span-3 xl:col-span-2 xl:self-start bg-white prose lg:prose-lg <?php e($page->status() === 'unlisted', ' !prose-sm') ?>">
         <h1 class=""><?= $page->title() ?></h1>
 
         <?php if ($page->subline()->isNotEmpty()) :?>

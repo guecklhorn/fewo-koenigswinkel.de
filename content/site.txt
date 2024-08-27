@@ -29,15 +29,11 @@ Files:
 
 ----
 
-Togglecontact: false
+Togglecontact: true
 
 ----
 
-Togglequotes: false
-
-----
-
-Toggleevent: false
+Toggleevent: true
 
 ----
 
@@ -50,6 +46,10 @@ Phone: +498224804258
 ----
 
 Description: Mit seinen Bergen, Burgen und Schlössern faszinierte der Königswinkel bereits König Ludwig II. Die Landschaft um den Forggensee und Füssen bietet eine hervorragende Voraussetzung für einen gelungenen Urlaub im wunderschönen Allgäu.
+
+----
+
+Togglequotes: false
 
 ----
 
