@@ -2,7 +2,46 @@ Title: Preisliste
 
 ----
 
-Text: 
+Subline: 
+
+----
+
+Text:
+
+### Nebensaison
+**10.01. - 30.04. und 01.11. - 19.12. des Jahres**
+
+1-2 Gäste/ Nacht
+inklusive Garage
+**99,- €**
+
+---
+
+### Hauptsaison
+**01.05. - 31.10. und 20.12. - 09.01. des Jahres**
+
+1-2 Gäste / Nacht
+inklusive Garage
+**111,- €**
+
+---
+
+Informationen zur Buchung:
+- Alle Preise gelten für 2 Personen pro Nacht
+- Anzahlung 100,- € pro angefangene Woche, Restzahlung 4 Wochen vor Reisebeginn
+- Kurtaxe: z.Zt. 1,20 € pro Nacht Erwachsene – 0,60 € pro Nacht Kind
+- Anreise nach Absprache/Abreise 10.00 Uhr oder nach Absprache
+- Kurzzeitbuchung in NS: 4-6 Nächte = Preise der Hauptsaison
+- Buchungen von weniger als 4 Nächten nicht möglich
+- Stornierungskosten: Rücktritt und Nichtanreise 90 % (sofern keine Wiedervermietung erfolgen konnte), vorzeitige Abreise 100 %. Wir empfehlen den Abschluss einer Reiserücktrittsversicherung. Rücktritt in Coronazeiten: sollte ein Beherbergungsverbot durch die Regierung kurzfristig zu Ihrem Reisetermin eingeführt werden, ist eine kostenlose Stornierung für Sie/uns selbstverständlich.
+- Wir legen Wert darauf, dass in der Wohnung nicht geraucht wird
+- Haustiere sind nicht erlaubt
+- Fahrrad/Autogarage kostenlos für die gesamte Buchungszeit
+- Gästekarte: Kostenfreies WLAN an der Touristeninfo Rieden/Forggensee - weitere WLAN-Hotspots unter www.allgäuwlan.de
+- Freie Fahrt mit Bus und Bahn - Information unter (link: https://www.schlosspark.de/urlaub-planen/wissenswertes/allgaeumobil text: allgaeu-mobil.de)
+
+Im Preis enthalten sind die Erstausstattung von Bett/Tischwäsche, Handtücher, Badetuch, die Kosten für Strom, Wasser, Heizung sowie die Endreinigung der Wohnung. 
+Falls Sie noch Fragen haben, rufen Sie uns doch einfach an oder sprechen Sie auf den Anrufbeantworter - wir rufen Sie gerne zurück!
 
 ----
 

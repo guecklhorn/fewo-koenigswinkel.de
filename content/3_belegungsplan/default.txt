@@ -2,7 +2,11 @@ Title: Belegungsplan
 
 ----
 
-Text: 
+Subline: Wer zu erst kommt, malt zuerst
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus tempora placeat eveniet exercitationem nulla earum corporis ad aliquid culpa unde! Quos ullam quisquam velit dignissimos sunt, iste molestias, nemo maxime!
 
 ----
 
