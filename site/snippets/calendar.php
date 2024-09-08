@@ -24,7 +24,8 @@
                 link.dataset.columns=columns
                 link.classList.add("traumfewo-calendar")
                 container.appendChild(link);
-                image.setAttribute('src', '//static.traum-ferienwohnungen.de/images/vermieten/tfw-logo.png')
+                image.setAttribute('src', '//static.traum-ferienwohnungen.de/images/vermieten/tfw-logo.png');
+                image.setAttribute('width', '85')
                 link.appendChild(image);
 
                 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//www.traum-ferienwohnungen.de/widgets/boot.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","traumfewo-widget-js");

@@ -7,9 +7,17 @@ columns:
             fields:
                 type: fields
                 fields:
+                    banner:
+                        label: Bild
+                        type: files
+                        multiple: false
+                        layout: cards
+                        image:
+                            cover: true
+                            ratio: 16/9
                     subline:
                         type: text
-                        label: Zwischenüberschrift
+                        label: Überschrift
                     text:
                         type: textarea
                         size: huge

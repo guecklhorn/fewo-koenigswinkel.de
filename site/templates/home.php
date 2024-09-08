@@ -17,7 +17,7 @@
         style="background-image: url('<?= $image ? $image->thumb('tiles')->url() : '' ?>');"
         data-animation="true">
         <?php if ($site->news()->isNotEmpty()) :?>
-            <h2 class="bg-white text-highlight self-start px-4 py-2 font-bold inline-block lg:relative -left-8">» Aktuelles aus Königswinkel</h2>
+            <h2 class="bg-white text-highlight self-start px-4 py-2 font-bold inline-block lg:relative -left-8">» <?= $site->newsTitle() ?></h2>
             <div class="text-white bg-black/75 p-4 mt-4 lg:mt-8 leading-relaxed lg:self-start"><?= $site->news()->kt() ?></div>
         <?php endif ?>
     </section>
@@ -27,7 +27,7 @@
         style="background-image: url('<?= $image ? $image->thumb('tiles')->url() : '' ?>');"
         data-animation="true">
         <?php if ($site->contact()->isNotEmpty()) :?>
-            <h2 class="bg-white text-highlight self-start px-4 py-2 font-bold inline-block lg:relative -left-8">» So erreichen Sie uns</h2>
+            <h2 class="bg-white text-highlight self-start px-4 py-2 font-bold inline-block lg:relative -left-8">» <?= $site->contactTitle() ?></h2>
             <div class="text-white bg-black/75 p-4 mt-4 lg:mt-8 leading-relaxed lg:self-start"><?= $site->contact()->kt() ?></div>
         <?php endif ?>
     </section>
@@ -37,7 +37,7 @@
         style="background-image: url('<?= $image ? $image->thumb('tiles')->url() : '' ?>');"
         data-animation="true">
         <?php if ($site->toggleWheater()->isTrue() && isFeatureAllowed('checkwxapi')) :?>
-            <h2 class="bg-white text-highlight self-start px-4 py-2 font-bold lg:relative -left-8 lg:hidden 2xl:inline-block">» Das Wetter im Allgäu</h2>
+            <h2 class="bg-white text-highlight self-start px-4 py-2 font-bold lg:relative -left-8 lg:hidden 2xl:inline-block">» <?= $site->wheaterTitle() ?></h2>
             <ul class="grid grid-cols-3 justify-between gap-4 lg:gap-8 text-white mt-4 lg:mt-0 2xl:mt-8">
                 <li class="flex flex-col justify-center items-center gap-2 bg-black/75 p-4">
                     <p class="text-xs font-bold">Temperatur</p>

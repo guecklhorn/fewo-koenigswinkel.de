@@ -1,6 +1,50 @@
 title: Site
 
 tabs:
+    home:
+        label: Startseite
+        icon: home
+        fields:
+            contactBox:
+                label: Kontakt-Kachel
+                type: headline
+            contactTitle:
+                label: Überschrift
+                type: text
+            contact:
+                label: Kontakt
+                type: textarea
+                size: small
+                buttons: true
+
+            lineOne:
+                type: line
+
+            newsBox:
+                label: Neuigkeiten-Kachel
+                type: headline
+            newsTitle:
+                label: Überschrift
+                type: text
+            news:
+                label: Neuigkeiten
+                type: textarea
+                size: small
+                buttons: true
+
+            lineTwo:
+                type: line
+
+            wheaterBox:
+                label: Wetter-Kachel
+                type: headline
+            wheaterTitle:
+                label: Überschrift
+                type: text
+            toggleWheater:
+                label: Wetter anzeigen
+                type: toggle
+
     pages:
         label: Seiten
         icon: document
@@ -36,31 +80,6 @@ tabs:
                             cover: true
                         size: tiny
 
-    home:
-        label: Startseite
-        icon: home
-        columns:
-            left:
-                width: 1/2
-                fields:
-                    contact:
-                        label: Kontakt
-                        type: textarea
-                        size: small
-                        buttons: true
-
-            right:
-                width: 1/2
-                fields:
-                    news:
-                        label: Neuigkeiten
-                        type: textarea
-                        size: small
-                        buttons: true
-                    toggleWheater:
-                        label: Wetter anzeigen
-                        type: toggle
-
     images:
         label: Zufallsbilder
         icon: image
@@ -72,7 +91,7 @@ tabs:
                         type: files
                         label: Zufallsbilder
                         layout: cards
-                        size: small
+                        size: large
                         image:
                             cover: true
                             ratio: 16/9

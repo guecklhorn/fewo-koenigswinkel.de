@@ -1,0 +1,57 @@
+title: Editor
+description: Editoren haben eingeschränkte Rechte
+
+permissions:
+  access:
+    panel: true
+    site: true
+    system: false
+    users: false
+
+  files:
+    create: true
+    changeName: true
+    delete: false
+    read: true
+    replace: true
+    update: true
+
+  languages:
+    create: false
+    delete: false
+
+  pages:
+    changeSlug: false
+    changeStatus: true
+    changeTemplate: false
+    changeTitle: false
+    create: true
+    delete: false
+    duplicate: false
+    preview: true
+    read: true
+    sort: false
+    update: true
+
+  site:
+    changeTitle: false
+    update: false
+
+  user:
+    changeEmail: true
+    changeLanguage: false
+    changeName: true
+    changePassword: true
+    changeRole: false
+    delete: false
+    update: true
+
+  users:
+    changeEmail: false
+    changeLanguage: false
+    changeName: false
+    changePassword: false
+    changeRole: false
+    create: false
+    delete: false
+    update: false

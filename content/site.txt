@@ -2,6 +2,10 @@ Title: Ferienwohnung Königswinkel
 
 ----
 
+Contacttitle: So erreichen Sie uns
+
+----
+
 Contact:
 
 Rufen Sie uns an
@@ -10,10 +14,18 @@ oder reservieren Sie **(email: info@fewo-koenigswinkel.de text: per E-Mail title
 
 ----
 
+Newstitle: Aktuelles aus Königswinkel
+
+----
+
 News:
 
 **Festspielhaus Neuschwanstein:**
 Ludwig, Dream King, Zauberflöte, Cinderella, u. v. m. **Sichern Sie sich vor Reiseantritt die besten Plätze!**
+
+----
+
+Wheatertitle: Das Wetter im Allgäu
 
 ----
 
@@ -26,6 +38,7 @@ Files:
 - file://G0b3v1MmLztsJVap
 - file://6lNZjmudxXS2C7Pb
 - file://a0C4xA4orqFJ6rcJ
+- file://ygkZ6pXmDQkjPbr7
 
 ----
 
@@ -46,15 +59,3 @@ Phone: +498224804258
 ----
 
 Description: Mit seinen Bergen, Burgen und Schlössern faszinierte der Königswinkel bereits König Ludwig II. Die Landschaft um den Forggensee und Füssen bietet eine hervorragende Voraussetzung für einen gelungenen Urlaub im wunderschönen Allgäu.
-
-----
-
-Togglequotes: false
-
-----
-
-Togglenews: false
-
-----
-
-Quotes: 
