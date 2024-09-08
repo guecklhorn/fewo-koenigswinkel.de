@@ -1,8 +1,8 @@
-Caption: Wohnzimmer mit gemütlicher Essgruppe
+Caption: Gemütliche Essecke
 
 ----
 
-Alt: Wohnzimmer mit gemütlicher Essgruppe
+Alt: 
 
 ----
 
@@ -18,8 +18,8 @@ Link:
 
 ----
 
-Sort: 1
+Sort: 13
 
 ----
 
-Uuid: LlPajnUXpjBubVyv
+Uuid: GRTpzIessoJ11trv
