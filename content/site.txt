@@ -14,7 +14,7 @@ oder reservieren Sie **(email: info@fewo-koenigswinkel.de text: per E-Mail title
 
 ----
 
-Newstitle: Aktuelles aus Königswinkel
+Newstitle: Aktuelles vom Königswinkel
 
 ----
 
@@ -35,10 +35,9 @@ Togglewheater: true
 
 Files:
 
-- file://G0b3v1MmLztsJVap
-- file://6lNZjmudxXS2C7Pb
-- file://a0C4xA4orqFJ6rcJ
 - file://ygkZ6pXmDQkjPbr7
+- file://6lNZjmudxXS2C7Pb
+- file://G0b3v1MmLztsJVap
 
 ----
 

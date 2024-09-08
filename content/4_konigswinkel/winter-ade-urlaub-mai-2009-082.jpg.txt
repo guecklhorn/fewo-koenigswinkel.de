@@ -1,8 +1,24 @@
-Sort: 18
+Caption: Der Frühling trifft auf verschneite Berge.
 
 ----
 
-Caption: 
+Alt: 
+
+----
+
+Photographer: 
+
+----
+
+License: 
+
+----
+
+Link: 
+
+----
+
+Sort: 18
 
 ----
 

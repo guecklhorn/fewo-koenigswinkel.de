@@ -1,8 +1,24 @@
-Sort: 6
+Caption: Schloss Neuschwanstein
 
 ----
 
-Caption: 
+Alt: 
+
+----
+
+Photographer: 
+
+----
+
+License: 
+
+----
+
+Link: 
+
+----
+
+Sort: 6
 
 ----
 
