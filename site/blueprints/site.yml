@@ -87,7 +87,7 @@ tabs:
             center:
                 width: 1/1
                 fields:
-                    files:
+                    random:
                         type: files
                         label: Zufallsbilder
                         layout: cards

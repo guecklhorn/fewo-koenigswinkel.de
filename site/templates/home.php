@@ -1,5 +1,5 @@
 <?php
-    $image = $site?->images()?->shuffle()?->first();
+    $image = $site?->random()?->toFiles()?->shuffle()?->first();
 ?>
 
 <?php snippet('head') ?>
