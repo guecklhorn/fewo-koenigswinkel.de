@@ -1,5 +1,5 @@
 <header class="container gap-4 py-4 bg-white lg:flex">
-    <div class="flex items-center lg:mr-8">
+    <div class="flex items-center lg:mr-8 gap-4">
         <a href="<?= $site->url() ?>"
             title="Zur Startseite"
             class="fill-highlight w-48">

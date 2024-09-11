@@ -13,17 +13,13 @@
     </section>
 
     <section
-        class="bg-gray rounded-xl shadow p-4 lg:p-8 row-span-2 col-start-2 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-[400ms] duration-700 bg-center lg:bg-right-top overflow-hidden flex flex-col"
+        class="hidden lg:block bg-gray rounded-xl shadow p-4 lg:p-8 row-span-2 col-start-2 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-[400ms] duration-700 bg-center lg:bg-right-top overflow-hidden"
         style="background-image: url('<?= $image ? $image->thumb('tiles')->url() : '' ?>');"
         data-animation="true">
-        <?php if ($site->news()->isNotEmpty()) :?>
-            <h2 class="bg-white text-highlight self-start px-4 py-2 font-bold inline-block lg:relative -left-8">» <?= $site->newsTitle() ?></h2>
-            <div class="text-white bg-black/75 p-4 mt-4 lg:mt-8 leading-relaxed lg:self-start"><?= $site->news()->kt() ?></div>
-        <?php endif ?>
     </section>
 
     <section
-        class="bg-gray rounded-xl shadow p-4 lg:p-8 row-span-2 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-[600ms] duration-700 bg-center lg:bg-left-bottom overflow-hidden flex flex-col"
+        class="bg-gray rounded-xl shadow p-4 lg:p-8 row-span-2 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-[600ms] duration-700 bg-center lg:bg-left-bottom overflow-hidden flex flex-col justify-end"
         style="background-image: url('<?= $image ? $image->thumb('tiles')->url() : '' ?>');"
         data-animation="true">
         <?php if ($site->contact()->isNotEmpty()) :?>
