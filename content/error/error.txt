@@ -1,4 +1,21 @@
-Title: Error
+Title: 404 – Seite nicht gefunden
+
+----
+
+Banner: 
+
+----
+
+Subline: 
+
+----
+
+Text:
+
+Die von Ihnen gesuchte Seite konnte leider nicht gefunden werden.
+Das tut uns leid! 
+
+(link: / text: Zurück zur Startseite)
 
 ----
 

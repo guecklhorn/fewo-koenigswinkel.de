@@ -27,7 +27,12 @@ News:
 - 
   story: |
     **Festspielhaus Neuschwanstein:**
-    Ludwig, Dream King, Zauberflöte, Cinderella, u. v. m. **Sichern Sie sich vor Reiseantritt die besten Plätze!**
+    Ludwig, Dream King, Zauberflöte, Cinderella, u. v. m.
+    **Sichern Sie sich vor Reiseantritt die besten Plätze!**
+- 
+  story: |
+    **Ludwig2 - Der König kommt zurück**
+    Sichern Sie sich jetzt schon Ihre Karten unter (link: https://das-festspielhaus.de/ text: das-festspielhaus.de target: _blank)
 
 ----
 

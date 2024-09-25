@@ -4,14 +4,16 @@
         <h2 class="p-4 bg-highlight text-white text-lg font-bold leading-tight"><?= $site->newstitle() ?></h2>
     <?php endif ?>
 
-    <ul class="p-4 flex flex-col gap-4">
-        <?php
-            $news = $site->news()->toStructure();
-            foreach($news as $item): ?>
-            <li>
-                <?= $item->story()->kt() ?>
-            </li>
-        <?php endforeach ?>
-    </ul>
+    <div class="swiper !p-4" data-sliderContainer="true">
+        <ul class="swiper-wrapper">
+            <?php
+                $news = $site->news()->toStructure();
+                foreach($news as $item): ?>
+                <li class="swiper-slide">
+                    <?= $item->story()->kt() ?>
+                </li>
+            <?php endforeach ?>
+        </ul>
+    </div>
 </section>
 <?php endif ?>
