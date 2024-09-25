@@ -14,30 +14,50 @@ oder reservieren Sie **(email: info@fewo-koenigswinkel.de text: per E-Mail title
 
 ----
 
-Newstitle: Aktuelles vom Königswinkel
+Wheatertitle: Das Wetter im Allgäu
+
+----
+
+Newstitle: Aktuelles aus Königswinkel
 
 ----
 
 News:
 
-**Festspielhaus Neuschwanstein:**
-Ludwig, Dream King, Zauberflöte, Cinderella, u. v. m. **Sichern Sie sich vor Reiseantritt die besten Plätze!**
+- 
+  story: |
+    **Festspielhaus Neuschwanstein:**
+    Ludwig, Dream King, Zauberflöte, Cinderella, u. v. m. **Sichern Sie sich vor Reiseantritt die besten Plätze!**
 
 ----
 
-Wheatertitle: Das Wetter im Allgäu
+Linktitle: Sehenswürdigkeiten aus der Nähe
 
 ----
 
-Togglewheater: true
+Links:
 
-----
-
-Random:
-
-- file://G0b3v1MmLztsJVap
-- file://6lNZjmudxXS2C7Pb
-- file://ygkZ6pXmDQkjPbr7
+- 
+  title: Königswinkel
+  url: >
+    https://de.wikipedia.org/wiki/Königswinkel
+  description: Königsloge vor den Alpen
+- 
+  title: Informationen zum Forggensee
+  url: https://de.wikipedia.org/wiki/Forggensee
+  description: 'Entfernung: ca 150 Meter'
+- 
+  title: Festspielhaus Füssen
+  url: https://das-festspielhaus.de/
+  description: 'Entfernung: 3 Kilometer'
+- 
+  title: Schloss Neuschwanstein
+  url: https://neuschwanstein.de/
+  description: 'Entfernung: 9 Kilometer'
+- 
+  title: Schloss Linderhof
+  url: https://schlosslinderhof.de/
+  description: 'Entfernung: 45 Kilometer'
 
 ----
 
@@ -46,6 +66,14 @@ Togglecontact: true
 ----
 
 Toggleevent: true
+
+----
+
+Togglelink: true
+
+----
+
+Togglewheater: true
 
 ----
 
@@ -58,3 +86,11 @@ Phone: +498224804258
 ----
 
 Description: Mit seinen Bergen, Burgen und Schlössern faszinierte der Königswinkel bereits König Ludwig II. Die Landschaft um den Forggensee und Füssen bietet eine hervorragende Voraussetzung für einen gelungenen Urlaub im wunderschönen Allgäu.
+
+----
+
+Random:
+
+- file://G0b3v1MmLztsJVap
+- file://6lNZjmudxXS2C7Pb
+- file://ygkZ6pXmDQkjPbr7

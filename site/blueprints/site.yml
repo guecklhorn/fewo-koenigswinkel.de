@@ -4,46 +4,33 @@ tabs:
     home:
         label: Startseite
         icon: home
-        fields:
-            contactBox:
-                label: Kontakt-Kachel
-                type: headline
-            contactTitle:
-                label: Überschrift
-                type: text
-            contact:
-                label: Kontakt
-                type: textarea
-                size: small
-                buttons: true
+        columns:
+            left:
+                width: 1/2
+                fields:
+                    contactBox:
+                        label: Kontakt-Widget
+                        type: headline
+                    contactTitle:
+                        label: Überschrift
+                        type: text
+                        placeholder: Überschrift
+                    contact:
+                        label: Kontakt
+                        type: textarea
+                        size: small
+                        buttons: true
 
-            lineOne:
-                type: line
-
-            newsBox:
-                label: Neuigkeiten-Kachel
-                type: headline
-            newsTitle:
-                label: Überschrift
-                type: text
-            news:
-                label: Neuigkeiten
-                type: textarea
-                size: small
-                buttons: true
-
-            lineTwo:
-                type: line
-
-            wheaterBox:
-                label: Wetter-Kachel
-                type: headline
-            wheaterTitle:
-                label: Überschrift
-                type: text
-            toggleWheater:
-                label: Wetter anzeigen
-                type: toggle
+            right:
+                width: 1/2
+                fields:
+                    wheaterBox:
+                        label: Wetter-Widget
+                        type: headline
+                    wheaterTitle:
+                        label: Überschrift
+                        type: text
+                        placeholder: Überschrift
 
     pages:
         label: Seiten
@@ -80,6 +67,102 @@ tabs:
                             cover: true
                         size: tiny
 
+    settings:
+        label: Einstellungen
+        icon: settings
+        columns:
+            left:
+                width: 1/2
+                fields:
+                    newsBox:
+                        label: Neuigkeiten-Box
+                        type: headline
+                    newsTitle:
+                        label: Überschrift
+                        type: text
+                        placeholder: Überschrift
+                    news:
+                        label: Neuigkeiten
+                        type: structure
+                        fields:
+                            story:
+                                type: textarea
+                                size: small
+                                buttons: true
+
+                    lineLeft:
+                        type: line
+
+                    linkBox:
+                        label: Link-Box
+                        type: headline
+                    linkTitle:
+                        label: Überschrift
+                        type: text
+                        placeholder: Überschrift
+                    links:
+                        label: Links
+                        type: structure
+                        fields:
+                            title:
+                                label: Name
+                                type: text
+                                placeholder: Name
+                                required: true
+                            url:
+                                label: Url
+                                type: url
+                                required: true
+                            description:
+                                label: Beschreibung
+                                type: textarea
+                                buttons: false
+                                placeholder: Beschreibung
+                                required: true
+
+            right:
+                width: 1/2
+                fields:
+                    views:
+                        label: Sichtbarkeiten
+                        type: headline
+                    toggleContact:
+                        label: Kontakt-Box anzeigen
+                        type: toggle
+                        width: 1/4
+                    toggleEvent:
+                        label: Termin-Box anzeigen
+                        type: toggle
+                        width: 1/4
+                    toggleLink:
+                        label: Link-Box anzeigen
+                        type: toggle
+                        width: 1/4
+                    toggleWheater:
+                        label: Wetter anzeigen
+                        type: toggle
+                        width: 1/4
+
+                    lineRight:
+                        type: line
+
+                    settings:
+                        label: Globale Einstellungen
+                        type: headline
+                    email:
+                        label: E-Mail-Adresse
+                        type: email
+                        buttons: false
+                    phone:
+                        label: Telefonnummer
+                        type: tel
+                        buttons: false
+                    description:
+                        label: Seiten-Beschreibung
+                        type: textarea
+                        size: medium
+                        buttons: false
+
     images:
         label: Zufallsbilder
         icon: image
@@ -95,34 +178,3 @@ tabs:
                         image:
                             cover: true
                             ratio: 16/9
-
-    settings:
-        label: Einstellungen
-        icon: settings
-        columns:
-            left:
-                width: 1/2
-                fields:
-                    toggleContact:
-                        label: Kontakt-Box anzeigen
-                        type: toggle
-                    toggleEvent:
-                        label: Termin-Box anzeigen
-                        type: toggle
-
-            right:
-                width: 1/2
-                fields:
-                    email:
-                        label: E-Mail-Adresse
-                        type: email
-                        buttons: false
-                    phone:
-                        label: Telefonnummer
-                        type: tel
-                        buttons: false
-                    description:
-                        label: Seiten-Beschreibung
-                        type: textarea
-                        size: medium
-                        buttons: false
