@@ -7,7 +7,7 @@
 
 <main class="container flex flex-col lg:grid grid-cols-2 grid-rows-3 gap-4 xl:gap-8 lg:aspect-video text-2xl">
     <section
-        class="hidden lg:block bg-gray rounded-xl shadow p-4 lg:p-8 row-span-1 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-200 duration-700 bg-center lg:bg-left-top overflow-hidden flex flex-col"
+        class="hidden lg:block bg-gray rounded-xl shadow p-4 lg:p-8 row-span-1 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-200 duration-700 bg-center lg:bg-left-top overflow-hidden"
         style="background-image: url('<?= $image ? $image->thumb('tiles')->url() : '' ?>');"
         data-animation="true">
     </section>
@@ -36,28 +36,28 @@
             <h2 class="bg-white text-highlight self-start px-4 py-2 font-bold lg:relative -left-8 lg:hidden 2xl:inline-block">» <?= $site->wheaterTitle() ?></h2>
             <ul class="grid grid-cols-3 justify-between gap-4 lg:gap-8 text-white mt-4 lg:mt-0 2xl:mt-8">
                 <li class="flex flex-col justify-center items-center gap-2 bg-black/50 p-4">
-                    <p class="text-xs font-bold">Temperatur</p>
+                    <p class="text-xs">Temperatur</p>
 
                     <div class="text-3xl"><i class="fa-kit fa-temperature-half-light"></i></div>
 
-                    <p class="text-center leading-tight text-base whitespace-nowrap">
+                    <p class="text-center leading-tight text-sm font-bold">
                         <span class="js-metar-temperature"></span>
                     </p>
                 </li>
 
                 <li class="flex flex-col justify-center items-center gap-2 bg-black/50 p-4">
-                    <p class="text-xs font-bold">Wind</p>
+                    <p class="text-xs">Wind</p>
 
                     <div class="text-3xl"><i class="fa-kit fa-windsock-light"></i></div>
 
-                    <p class="text-center leading-tight text-base whitespace-nowrap">
+                    <p class="text-center leading-tight text-sm font-bold">
                         <span class="js-metar-wind-degrees"></span>
                         <span class="js-metar-wind-speed"></span>
                     </p>
                 </li>
 
                 <li class="flex flex-col justify-center items-center gap-2 bg-black/50 p-4">
-                    <p class="text-xs font-bold">Bewölkung</p>
+                    <p class="text-xs">Bewölkung</p>
 
                     <div class="text-3xl" id="js-metar-clouds-layers"></div>
                 </li>

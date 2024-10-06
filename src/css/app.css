@@ -3,141 +3,65 @@
 @tailwind utilities;
 
 @layer base {
-    .fak.fa-arrow-up-right-from-square-light::before,
-    .fa-kit.fa-arrow-up-right-from-square-light::before {
-        content: "\e000";
-    }
-    .fak.fa-award-simple-light::before,
-    .fa-kit.fa-award-simple-light::before {
-        content: "\e019";
-    }
-    .fak.fa-balloons-light::before,
-    .fa-kit.fa-balloons-light::before {
-        content: "\e01a";
-    }
-    .fak.fa-beer-mug-light::before,
-    .fa-kit.fa-beer-mug-light::before {
-        content: "\e01b";
-    }
-    .fak.fa-bell-regular::before,
-    .fa-kit.fa-bell-regular::before {
-        content: "\e001";
-    }
-    .fak.fa-building-columns-light::before,
-    .fa-kit.fa-building-columns-light::before {
-        content: "\e002";
-    }
-    .fak.fa-cake-candles-light::before,
-    .fa-kit.fa-cake-candles-light::before {
-        content: "\e003";
-    }
-    .fak.fa-calendar-days-light::before,
-    .fa-kit.fa-calendar-days-light::before {
-        content: "\e004";
-    }
-    .fak.fa-caret-up-light::before,
-    .fa-kit.fa-caret-up-light::before {
-        content: "\e005";
-    }
-    .fak.fa-child-reaching-light::before,
-    .fa-kit.fa-child-reaching-light::before {
-        content: "\e01c";
-    }
-    .fak.fa-circle-arrow-left-light::before,
-    .fa-kit.fa-circle-arrow-left-light::before {
-        content: "\e006";
-    }
     .fak.fa-cloud-fog-light::before,
     .fa-kit.fa-cloud-fog-light::before {
-        content: "\e007";
+        content: '\e008';
     }
-    .fak.fa-cookie-bite-light::before,
-    .fa-kit.fa-cookie-bite-light::before {
-        content: "\e017";
+    .fak.fa-cloud-light::before,
+    .fa-kit.fa-cloud-light::before {
+        content: '\e004';
     }
-    .fak.fa-cookie-light::before,
-    .fa-kit.fa-cookie-light::before {
-        content: "\e018";
+    .fak.fa-clouds-light::before,
+    .fa-kit.fa-clouds-light::before {
+        content: '\e002';
     }
-    .fak.fa-envelope-open-text-light::before,
-    .fa-kit.fa-envelope-open-text-light::before {
-        content: "\e008";
-    }
-    .fak.fa-gamepad-modern-light::before,
-    .fa-kit.fa-gamepad-modern-light::before {
-        content: "\e009";
-    }
-    .fak.fa-gift-light::before,
-    .fa-kit.fa-gift-light::before {
-        content: "\e01d";
-    }
-    .fak.fa-jet-fighter-light::before,
-    .fa-kit.fa-jet-fighter-light::before {
-        content: "\e00a";
-    }
-    .fak.fa-paper-plane-light::before,
-    .fa-kit.fa-paper-plane-light::before {
-        content: "\e01f";
+    .fak.fa-clouds-sun-light::before,
+    .fa-kit.fa-clouds-sun-light::before {
+        content: '\e00c';
     }
     .fak.fa-paper-plane-solid::before,
     .fa-kit.fa-paper-plane-solid::before {
-        content: "\e00b";
+        content: '\e00e';
     }
-    .fak.fa-pen-fancy-light::before,
-    .fa-kit.fa-pen-fancy-light::before {
-        content: "\e00c";
+    .fak.fa-sun-bright-light::before,
+    .fa-kit.fa-sun-bright-light::before {
+        content: '\e003';
     }
-    .fak.fa-person-digging-light::before,
-    .fa-kit.fa-person-digging-light::before {
-        content: "\e020";
+    .fak.fa-sun-cloud-light::before,
+    .fa-kit.fa-sun-cloud-light::before {
+        content: '\e001';
     }
-    .fak.fa-phone-light::before,
-    .fa-kit.fa-phone-light::before {
-        content: "\e00d";
+    .fak.fa-sun-light::before,
+    .fa-kit.fa-sun-light::before {
+        content: '\e000';
     }
-    .fak.fa-plane-departure-light::before,
-    .fa-kit.fa-plane-departure-light::before {
-        content: "\e00e";
+    .fak.fa-temperature-empty-light::before,
+    .fa-kit.fa-temperature-empty-light::before {
+        content: '\e00a';
     }
-    .fak.fa-plane-engines-light::before,
-    .fa-kit.fa-plane-engines-light::before {
-        content: "\e00f";
-    }
-    .fak.fa-plane-light::before,
-    .fa-kit.fa-plane-light::before {
-        content: "\e010";
-    }
-    .fak.fa-plane-prop-light::before,
-    .fa-kit.fa-plane-prop-light::before {
-        content: "\e011";
-    }
-    .fak.fa-plane-solid::before,
-    .fa-kit.fa-plane-solid::before {
-        content: "\e012";
-    }
-    .fak.fa-receipt-light::before,
-    .fa-kit.fa-receipt-light::before {
-        content: "\e013";
-    }
-    .fak.fa-seedling-light::before,
-    .fa-kit.fa-seedling-light::before {
-        content: "\e021";
+    .fak.fa-temperature-full-light::before,
+    .fa-kit.fa-temperature-full-light::before {
+        content: '\e009';
     }
     .fak.fa-temperature-half-light::before,
     .fa-kit.fa-temperature-half-light::before {
-        content: "\e014";
+        content: '\e00d';
     }
-    .fak.fa-tree-decorated-light::before,
-    .fa-kit.fa-tree-decorated-light::before {
-        content: "\e01e";
+    .fak.fa-temperature-quarter-light::before,
+    .fa-kit.fa-temperature-quarter-light::before {
+        content: '\e006';
+    }
+    .fak.fa-temperature-three-quarters-light::before,
+    .fa-kit.fa-temperature-three-quarters-light::before {
+        content: '\e00b';
     }
     .fak.fa-wind-light::before,
     .fa-kit.fa-wind-light::before {
-        content: "\e015";
+        content: '\e005';
     }
     .fak.fa-windsock-light::before,
     .fa-kit.fa-windsock-light::before {
-        content: "\e016";
+        content: '\e007';
     }
 
     .fak,
@@ -149,7 +73,7 @@
         font-variant: normal;
         text-rendering: auto;
         line-height: 1;
-        font-family: "Font Awesome Kit";
+        font-family: 'Font Awesome Kit';
     }
 
     .fa-kit {
@@ -157,19 +81,19 @@
     }
 
     @font-face {
-        font-family: "Font Awesome Kit";
+        font-family: 'Font Awesome Kit';
         font-style: normal;
         font-display: block;
-        src: url("../fonts/fontawesome/webfonts/custom-icons.woff2?v=1")
-                format("woff2"),
-            url("../fonts/fontawesome/webfonts/custom-icons.ttf?v=1")
-                format("truetype");
+        src: url('../fonts/fontawesome/webfonts/custom-icons.woff2?v=3')
+                format('woff2'),
+            url('../fonts/fontawesome/webfonts/custom-icons.ttf?v=3')
+                format('truetype');
     }
 
     @font-face {
-        font-family: "RobotoSlab";
-        src: url("../fonts/Roboto-Slab/RobotoSlab-VariableFont_wght.ttf")
-            format("truetype-variations");
+        font-family: 'RobotoSlab';
+        src: url('../fonts/Roboto-Slab/RobotoSlab-VariableFont_wght.ttf')
+            format('truetype-variations');
         font-weight: 100 700;
         font-style: normal;
         font-display: optional;
@@ -298,7 +222,7 @@
 }
 
 .cookie-modal__buttons {
-    @apply flex flex-col-reverse sm:flex-row-reverse flex-col gap-4;
+    @apply flex flex-col-reverse sm:flex-row-reverse gap-4;
 }
 
 .cookie-modal__button {

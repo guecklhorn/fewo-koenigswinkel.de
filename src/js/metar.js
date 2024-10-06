@@ -140,7 +140,7 @@
                 const priority = { OVC: 4, BKN: 3, SCT: 2, FEW: 1 }
 
                 // Zum testen:
-                value = [{ code: 'FEW' }, { code: 'FEW' }, { code: 'FEW' }]
+                // value = [{ code: 'BKN' }, { code: 'FEW' }, { code: 'FEW' }]
 
                 const highest = value.reduce((prev, current) => {
                     return priority[prev.code] > priority[current.code]
@@ -161,13 +161,13 @@
                         insertInHTML('fa-cloud-fog-light', 'Bewölkt')
                         break
                     case 'BKN':
-                        insertInHTML('fa-cloud-fog-light', 'Leichte Bewölkung')
+                        insertInHTML('fa-clouds-light', 'Leichte Bewölkung')
                         break
                     case 'SCT':
-                        insertInHTML('fa-cloud-fog-light', 'Vereinzelt')
+                        insertInHTML('fa-clouds-sun-light', 'Vereinzelt')
                         break
                     default:
-                        insertInHTML('fa-child-reaching-light', 'Sonnig')
+                        insertInHTML('fa-sun-light', 'Sonnig')
                         break
                 }
             },
