@@ -18,7 +18,7 @@ Wheatertitle: Das Wetter im Allgäu
 
 ----
 
-Newstitle: Aktuelles aus Königswinkel
+Newstitle: Aktuelles vom Königswinkel
 
 ----
 
@@ -30,11 +30,17 @@ News:
     Ludwig, Dream King, Zauberflöte, Cinderella, u. v. m.
     **Sichern Sie sich vor Reiseantritt die besten Plätze!**
 - 
-  story: Test
+  story: |
+    **Ludwig2 - Der König kommt zurück**
+    Sichern Sie sich jetzt schon Ihre Karten unter **(link: https://das-festspielhaus.de/ text: das-festspielhaus.de target: _blank)**
+- 
+  story: |
+    Wenn es draußen stürmt oder schneit, wird es für die Urlaubsplanung höchste Zeit...
+    Sichern Sie sich rechtzeitig Ihren Urlaubswunschtermin...
 
 ----
 
-Linktitle: Sehenswürdigkeiten aus der Nähe
+Linktitle: Sehenswürdigkeiten in der näheren Umgebung
 
 ----
 
@@ -97,5 +103,3 @@ Random:
 - file://G0b3v1MmLztsJVap
 - file://6lNZjmudxXS2C7Pb
 - file://ygkZ6pXmDQkjPbr7
-- file://jX1QGmjDrELWWFR1
-- file://XXTa8pWdNvPaLLZd
