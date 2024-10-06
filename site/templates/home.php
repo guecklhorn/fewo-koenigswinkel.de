@@ -59,11 +59,7 @@
                 <li class="flex flex-col justify-center items-center gap-2 bg-black/50 p-4">
                     <p class="text-xs font-bold">Bewölkung</p>
 
-                    <div class="text-3xl"><i class="fa-kit fa-cloud-fog-light"></i></div>
-
-                    <p class="text-center leading-tight text-base whitespace-nowrap">
-                        <span class="js-metar-clouds-layer-one"></span>
-                    </p>
+                    <div class="text-3xl" id="js-metar-clouds-layers"></div>
                 </li>
             </ul>
         <?php endif ?>
