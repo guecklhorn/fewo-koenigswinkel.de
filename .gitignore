@@ -48,5 +48,5 @@ Icon
 # ---------------
 
 /site/config/.license
-assets/css/
-assets/js/
+assets/css/*.css
+assets/js/*.js
