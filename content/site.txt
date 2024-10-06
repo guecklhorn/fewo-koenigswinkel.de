@@ -29,6 +29,8 @@ News:
     **Festspielhaus Neuschwanstein:**
     Ludwig, Dream King, Zauberflöte, Cinderella, u. v. m.
     **Sichern Sie sich vor Reiseantritt die besten Plätze!**
+- 
+  story: Test
 
 ----
 
@@ -95,6 +97,5 @@ Random:
 - file://G0b3v1MmLztsJVap
 - file://6lNZjmudxXS2C7Pb
 - file://ygkZ6pXmDQkjPbr7
-- file://h0hmuen4IjHG2ktc
 - file://jX1QGmjDrELWWFR1
 - file://XXTa8pWdNvPaLLZd
