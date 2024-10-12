@@ -32,17 +32,19 @@
         )
     }
     const getDataFromMetar = async () => {
-        display(getMetar()?.data || {})
         try {
             const response = await fetch(
                 `https://api.checkwx.com/metar/${config.airport}/decoded`,
                 { method: 'GET', headers: { 'X-API-Key': config.key } }
             )
             const { data: metarData } = await response.json()
+
             if (metarData) {
                 const data = { date: new Date(), data: metarData[0] }
                 setMetar(data)
                 display(data.data)
+            } else {
+                display(getMetar()?.data || {})
             }
         } catch {
             display(getMetar()?.data || {})
