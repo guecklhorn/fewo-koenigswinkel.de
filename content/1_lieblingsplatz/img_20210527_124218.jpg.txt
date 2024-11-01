@@ -1,0 +1,25 @@
+Caption: Caption
+
+----
+
+Alt: Alternative Text
+
+----
+
+Photographer: 
+
+----
+
+License: 
+
+----
+
+Link: 
+
+----
+
+Sort: 14
+
+----
+
+Uuid: ystDvPSx8KOvuV8T

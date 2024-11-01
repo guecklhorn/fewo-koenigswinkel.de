@@ -1,0 +1,268 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .fak.fa-cloud-fog-light::before,
+    .fa-kit.fa-cloud-fog-light::before {
+        content: '\e008';
+    }
+    .fak.fa-cloud-light::before,
+    .fa-kit.fa-cloud-light::before {
+        content: '\e004';
+    }
+    .fak.fa-clouds-light::before,
+    .fa-kit.fa-clouds-light::before {
+        content: '\e002';
+    }
+    .fak.fa-clouds-sun-light::before,
+    .fa-kit.fa-clouds-sun-light::before {
+        content: '\e00c';
+    }
+    .fak.fa-paper-plane-solid::before,
+    .fa-kit.fa-paper-plane-solid::before {
+        content: '\e00e';
+    }
+    .fak.fa-sun-bright-light::before,
+    .fa-kit.fa-sun-bright-light::before {
+        content: '\e003';
+    }
+    .fak.fa-sun-cloud-light::before,
+    .fa-kit.fa-sun-cloud-light::before {
+        content: '\e001';
+    }
+    .fak.fa-sun-light::before,
+    .fa-kit.fa-sun-light::before {
+        content: '\e000';
+    }
+    .fak.fa-temperature-empty-light::before,
+    .fa-kit.fa-temperature-empty-light::before {
+        content: '\e00a';
+    }
+    .fak.fa-temperature-full-light::before,
+    .fa-kit.fa-temperature-full-light::before {
+        content: '\e009';
+    }
+    .fak.fa-temperature-half-light::before,
+    .fa-kit.fa-temperature-half-light::before {
+        content: '\e00d';
+    }
+    .fak.fa-temperature-quarter-light::before,
+    .fa-kit.fa-temperature-quarter-light::before {
+        content: '\e006';
+    }
+    .fak.fa-temperature-three-quarters-light::before,
+    .fa-kit.fa-temperature-three-quarters-light::before {
+        content: '\e00b';
+    }
+    .fak.fa-wind-light::before,
+    .fa-kit.fa-wind-light::before {
+        content: '\e005';
+    }
+    .fak.fa-windsock-light::before,
+    .fa-kit.fa-windsock-light::before {
+        content: '\e007';
+    }
+
+    .fak,
+    .fa-kit {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: var(--fa-display, inline-block);
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        font-family: 'Font Awesome Kit';
+    }
+
+    .fa-kit {
+        @apply font-normal;
+    }
+
+    @font-face {
+        font-family: 'Font Awesome Kit';
+        font-style: normal;
+        font-display: block;
+        src: url('../fonts/fontawesome/webfonts/custom-icons.woff2?v=3')
+                format('woff2'),
+            url('../fonts/fontawesome/webfonts/custom-icons.ttf?v=3')
+                format('truetype');
+    }
+
+    @font-face {
+        font-family: 'RobotoSlab';
+        src: url('../fonts/Roboto-Slab/RobotoSlab-VariableFont_wght.ttf')
+            format('truetype-variations');
+        font-weight: 100 700;
+        font-style: normal;
+        font-display: optional;
+    }
+}
+
+@layer components {
+    .hamburger-top,
+    .hamburger-bottom {
+        transform-origin: 34px 2px;
+        transition: transform 500ms cubic-bezier(0.8, -1.1, 0.5, 1.9);
+    }
+
+    .hamburger-circle {
+        @apply stroke-current;
+        stroke-linecap: round;
+        stroke-dasharray: 1 100 32 300;
+        stroke-dashoffset: 101;
+        transition: all 750ms ease;
+    }
+
+    .is--open .hamburger-circle {
+        stroke-dasharray: 1 100 190 300;
+        stroke-dashoffset: 1;
+    }
+
+    .is--open .hamburger-top {
+        transform: translateX(-4.5px) rotate(-45deg);
+    }
+
+    .is--open .hamburger-bottom {
+        transform: translateX(-4.5px) rotate(45deg);
+    }
+
+    .link {
+        @apply no-underline hover:underline;
+    }
+
+    .prose a:not([class]) {
+        @apply link text-highlight;
+    }
+
+    .button {
+        @apply text-white bg-black px-3 py-2 font-bold text-sm rounded hover:bg-highlight;
+    }
+
+    a,
+    button {
+        @apply transition-colors duration-300;
+    }
+
+    .cookie-box {
+        @apply p-4 flex flex-col gap-4 text-center border-2 border-dashed border-gray bg-muted/50 text-gray justify-center;
+    }
+
+    .table {
+        th,
+        td {
+            @apply p-4;
+        }
+    }
+}
+
+@layer utilities {
+    .figure {
+        @apply bg-muted overflow-hidden relative flex flex-col place-content-center;
+    }
+
+    .figure img {
+        @apply aspect-[4/3] object-cover;
+    }
+
+    .figcaption {
+        @apply p-2 text-sm bg-highlight text-white font-bold border-t-2 border-white;
+    }
+}
+
+/* Cookie */
+.cookie-modal {
+    @apply fixed inset-0 z-50 flex items-center justify-center bg-black/75 shadow-xl;
+}
+
+.cookie-modal--hidden {
+    @apply hidden;
+}
+
+.cookie-modal__content {
+    @apply w-full max-w-xl bg-white text-black p-4 sm:p-8;
+}
+
+.cookie-modal__title {
+    @apply mb-2 text-2xl font-bold;
+}
+
+.cookie-modal__text {
+    @apply mb-2 text-sm;
+}
+
+.cookie-modal__text a {
+    @apply mt-2 block !underline;
+}
+
+.cookie-modal__options {
+    @apply my-6 flex flex-wrap flex-col sm:flex-row justify-between;
+}
+
+.cookie-modal__option {
+    @apply flex cursor-pointer items-center leading-loose;
+}
+
+.cookie-modal__option.disabled {
+    @apply cursor-not-allowed opacity-50;
+}
+
+.cookie-modal__checkbox {
+    @apply hidden;
+}
+
+.cookie-modal__checkbox:checked ~ .cookie-modal__check {
+    @apply border-black bg-black;
+}
+
+.cookie-modal__check {
+    @apply mr-2 flex h-5 w-5 items-center justify-center border-2;
+}
+
+.cookie-modal__check svg {
+    @apply stroke-white;
+}
+
+.cookie-modal__label {
+    @apply whitespace-nowrap;
+}
+
+.cookie-modal__buttons {
+    @apply flex flex-col-reverse sm:flex-row-reverse gap-4;
+}
+
+.cookie-modal__button {
+    @apply w-full border-2 border-black px-4 py-2 text-black font-bold text-sm text-center rounded;
+}
+
+.cookie-modal__button.primary {
+    @apply ml-auto bg-black text-white;
+}
+
+.cookie-modal__button.hide {
+    @apply hidden;
+}
+
+/* Swiper */
+.swiper-button-prev,
+.swiper-button-next {
+    @apply absolute top-1/2 -translate-y-1/2 text-highlight bg-white rounded-full text-2xl w-10 h-10 z-10;
+}
+
+.swiper-button-prev {
+    @apply -left-6;
+}
+
+.swiper-button-next {
+    @apply -right-6;
+}
+
+.swiper-button-disabled i {
+    @apply opacity-25;
+}
+
+/* Homepage animation */
+.is--animated {
+    @apply opacity-100 translate-y-0;
+}

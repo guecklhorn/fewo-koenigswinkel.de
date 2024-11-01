@@ -1,0 +1,17 @@
+Title: Königswinkel
+
+----
+
+Banner: - file://6HbB82RJfyMsq9Iq
+
+----
+
+Subline: Impressionen aus der Umgebung
+
+----
+
+Block: [{"content":{"text":"<p>Königswinkel wird die Region im Allgäu um die Stadt Füssen genannt, auch \"Allgäuer Schloßpark\", der zu den schönsten Gegenden im Alpenraum gehört.</p><p>Hier liegt Rieden am Forggensee mit dem Ortsteil Osterreinen, wo Ihre Ferienwohnung Königswinkel \"Lieblingsplatz\" zu finden ist.</p>"},"id":"33989e1a-bf77-40e5-93f0-78cef5806739","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://4bQojTXU1fGw6SPC"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"19137148-2693-45ef-b152-bb9ca4e8e9b6","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://dUzU6eyNSRuSGQc8"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"c398ecfc-8a90-43e8-8de9-7c7e93a07b4a","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://H3XHk9zH8d5NR8Z3"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"12139214-d922-443e-95e1-db20f6deb2ed","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://m29A7w7uz0lw6e8d"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"9616712d-0032-45f2-bbb6-299a94d7bf79","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://hFOV4wJUZ9FOEapo"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"1ce53cad-4f9e-4e5a-9184-2fbf0f079ba4","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://ddsbvrtLPgNCUvYR"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"96605741-ca7a-4593-88ca-1ff8e8e5bb76","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://qMdVDZXwKWGQsCz9"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"d209cd22-878d-45f7-8e0b-9cbf99655515","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://uMC7wZN1vvDaspst"],"src":"","alt":"Schiff von einer Drohne aus fotografiert","caption":"Schiff von einer Drohne aus fotografiert","link":"","ratio":"","crop":"false"},"id":"1d6f2bfa-089a-4541-a48d-1995e9048144","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://EwO8mhEJgU5M7Wfg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fc6b1461-bb3d-4d83-bfa2-05d45a0b85ce","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://yUeVEuF7Iy8lTGEd"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"0a4c281f-b86c-44b2-8318-e5740468b00a","isHidden":false,"type":"image"}]
+
+----
+
+Uuid: roopUhJTD0aBNvc2

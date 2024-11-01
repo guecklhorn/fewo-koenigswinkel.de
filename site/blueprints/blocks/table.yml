@@ -1,0 +1,42 @@
+name: Tabelle
+icon: menu
+preview: table
+fields:
+    rows:
+        type: structure
+        columns:
+            seasons:
+                width: 1/4
+                label: Saison
+            from:
+                width: 1/4
+                label: Datum von
+                display: 'DD.MM.'
+            to:
+                width: 1/4
+                label: Datum bis
+                display: 'DD.MM.'
+            price:
+                width: 1/4
+                label: Preis
+                align: right
+                after: '€'
+        fields:
+            seasons:
+                type: writer
+                label: Saison
+                marks: false
+                inline: true
+                placeholder: Saison
+            from:
+                type: date
+                label: Datum von
+                display: 'DD.MM.'
+            to:
+                type: date
+                label: Datum bis
+                display: 'DD.MM.'
+            price:
+                type: number
+                label: Preis
+                placeholder: Preis

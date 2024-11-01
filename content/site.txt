@@ -1,0 +1,112 @@
+Title: Ferienwohnung Königswinkel
+
+----
+
+Contacttitle: So erreichen Sie uns
+
+----
+
+Contact:
+
+Rufen Sie uns an
+**Telefon (tel: 08224 804258 text: 08224 804258 title: Rufen Sie uns an)**
+oder reservieren Sie **(email: info@fewo-koenigswinkel.de text: per E-Mail title: E-Mail an info@fewo-koenigswinkel.de senden).**
+
+----
+
+Wheatertitle: Das Wetter im Allgäu
+
+----
+
+Newstitle: Aktuelles vom Königswinkel
+
+----
+
+News:
+
+- 
+  story: |
+    **Festspielhaus Neuschwanstein:**
+    Ludwig, Dream King, Zauberflöte, Cinderella, u. v. m.
+    **Sichern Sie sich vor Reiseantritt die besten Plätze!**
+- 
+  story: |
+    **Ludwig2 - Der König kommt zurück**
+    Sichern Sie sich jetzt schon Ihre Karten unter **(link: https://das-festspielhaus.de/ text: das-festspielhaus.de target: _blank)**
+- 
+  story: |
+    Wenn es draußen stürmt oder schneit, wird es für die Urlaubsplanung höchste Zeit...
+    Sichern Sie sich rechtzeitig Ihren Urlaubswunschtermin...
+
+----
+
+Linktitle: Sehenswürdigkeiten in der näheren Umgebung
+
+----
+
+Links:
+
+- 
+  title: Königswinkel
+  url: >
+    https://de.wikipedia.org/wiki/Königswinkel
+  description: Königsloge vor den Alpen
+- 
+  title: Informationen zum Forggensee
+  url: https://de.wikipedia.org/wiki/Forggensee
+  description: 'Entfernung: ca 150 Meter'
+- 
+  title: Festspielhaus Füssen
+  url: https://das-festspielhaus.de/
+  description: 'Entfernung: 3 Kilometer'
+- 
+  title: Schloss Neuschwanstein
+  url: https://neuschwanstein.de/
+  description: 'Entfernung: 9 Kilometer'
+- 
+  title: Schloss Linderhof
+  url: https://schlosslinderhof.de/
+  description: 'Entfernung: 45 Kilometer'
+
+----
+
+Togglecontact: true
+
+----
+
+Toggleevent: true
+
+----
+
+Togglelink: true
+
+----
+
+Togglewheater: true
+
+----
+
+Logo: - file://MhNZBiPOzog0jS6H
+
+----
+
+Email: info@fewo-koenigswinkel.de
+
+----
+
+Phone: +498224804258
+
+----
+
+Description: Mit seinen Bergen, Burgen und Schlössern faszinierte der Königswinkel bereits König Ludwig II. Die Landschaft um den Forggensee und Füssen bietet eine hervorragende Voraussetzung für einen gelungenen Urlaub im wunderschönen Allgäu.
+
+----
+
+Random:
+
+- file://G0b3v1MmLztsJVap
+- file://6lNZjmudxXS2C7Pb
+- file://ygkZ6pXmDQkjPbr7
+- file://a0C4xA4orqFJ6rcJ
+- file://XXTa8pWdNvPaLLZd
+- file://jX1QGmjDrELWWFR1

@@ -1,0 +1,190 @@
+title: Site
+
+tabs:
+    home:
+        label: Startseite
+        icon: home
+        columns:
+            left:
+                width: 1/2
+                fields:
+                    contactBox:
+                        label: Kontakt-Widget
+                        type: headline
+                    contactTitle:
+                        label: Überschrift
+                        type: text
+                        placeholder: Überschrift
+                    contact:
+                        label: Kontakt
+                        type: textarea
+                        size: small
+                        buttons: true
+
+            right:
+                width: 1/2
+                fields:
+                    wheaterBox:
+                        label: Wetter-Widget
+                        type: headline
+                    wheaterTitle:
+                        label: Überschrift
+                        type: text
+                        placeholder: Überschrift
+
+    pages:
+        label: Seiten
+        icon: document
+        columns:
+            left:
+                width: 2/3
+                sections:
+                    published:
+                        type: pages
+                        status: listed
+                        headline: Veröffentlichte Seiten
+                        layout: cards
+                        image:
+                            cover: true
+                        size: medium
+
+            right:
+                width: 1/3
+                sections:
+                    unlisted:
+                        type: pages
+                        headline: Nicht gelistete Seiten
+                        status: unlisted
+                        layout: cardlets
+                        image:
+                            cover: true
+
+                    drafts:
+                        type: pages
+                        headline: Entwürfe
+                        create: default
+                        status: draft
+                        layout: cards
+                        image:
+                            cover: true
+                        size: tiny
+
+    settings:
+        label: Einstellungen
+        icon: settings
+        columns:
+            left:
+                width: 1/2
+                fields:
+                    newsBox:
+                        label: Neuigkeiten-Box
+                        type: headline
+                    newsTitle:
+                        label: Überschrift
+                        type: text
+                        placeholder: Überschrift
+                    news:
+                        label: Neuigkeiten
+                        type: structure
+                        fields:
+                            story:
+                                type: textarea
+                                size: small
+                                buttons: true
+
+                    lineLeft:
+                        type: line
+
+                    linkBox:
+                        label: Link-Box
+                        type: headline
+                    linkTitle:
+                        label: Überschrift
+                        type: text
+                        placeholder: Überschrift
+                    links:
+                        label: Links
+                        type: structure
+                        fields:
+                            title:
+                                label: Name
+                                type: text
+                                placeholder: Name
+                                required: true
+                            url:
+                                label: Url
+                                type: url
+                                required: true
+                            description:
+                                label: Beschreibung
+                                type: textarea
+                                buttons: false
+                                placeholder: Beschreibung
+                                required: true
+
+            right:
+                width: 1/2
+                fields:
+                    views:
+                        label: Sichtbarkeiten
+                        type: headline
+                    toggleContact:
+                        label: Kontakt-Box anzeigen
+                        type: toggle
+                        width: 1/2
+                    toggleEvent:
+                        label: Neuigkeiten-Box anzeigen
+                        type: toggle
+                        width: 1/2
+                    toggleLink:
+                        label: Link-Box anzeigen
+                        type: toggle
+                        width: 1/2
+                    toggleWheater:
+                        label: Wetter anzeigen
+                        type: toggle
+                        width: 1/2
+
+                    lineRight:
+                        type: line
+
+                    settings:
+                        label: Globale Einstellungen
+                        type: headline
+                    logo:
+                        type: files
+                        label: Logo
+                        multiple: false
+                        query: site.images.template("logo")
+                        uploads:
+                            template: logo
+                    email:
+                        label: E-Mail-Adresse
+                        type: email
+                        buttons: false
+                    phone:
+                        label: Telefonnummer
+                        type: tel
+                        buttons: false
+                    description:
+                        label: Seiten-Beschreibung
+                        type: textarea
+                        size: medium
+                        buttons: false
+
+    images:
+        label: Zufallsbilder
+        icon: image
+        columns:
+            center:
+                width: 1/1
+                fields:
+                    random:
+                        type: files
+                        label: Zufallsbilder
+                        query: site.random.toFiles
+                        layout: cards
+                        size: large
+                        image:
+                            cover: true
+                            ratio: 16/9
