@@ -1,0 +1,15 @@
+title: Images
+
+fields:
+    pictures:
+        label: Bilder
+        type: files
+        uploads: true
+        layout: cards
+        size: large
+        image:
+            cover: false
+            back: pattern
+            ratio: 1/1
+        uploads:
+            template: default

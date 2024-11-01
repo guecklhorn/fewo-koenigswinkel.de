@@ -1,65 +1,48 @@
 title: Default Page
 
-columns:
-    main:
-        width: 2/3
-        sections:
-            content:
-                type: fields
-                fields:
-                    banner:
-                        label: Banner
-                        type: files
-                        multiple: false
-                        query: site.random.toFiles
-                        layout: cards
-                        image:
-                            cover: true
-                            ratio: 16/9
-                    subline:
-                        type: text
-                        label: Überschrift
-                    block:
-                        type: blocks
-                        label: Inhalt
-                        pretty: false
+sections:
+    content:
+        type: fields
+        fields:
+            banner:
+                label: Banner
+                type: files
+                multiple: false
+                query: page('pictures').pictures.toFiles
+                layout: cards
+                image:
+                    cover: true
+                    ratio: 16/9
+                uploads: false
+            subline:
+                type: text
+                label: Überschrift
+            block:
+                type: blocks
+                label: Inhalt
+                pretty: false
+                fieldsets:
+                    text:
+                        label: Text
+                        type: group
                         fieldsets:
-                            text:
-                                label: Text
-                                type: group
-                                fieldsets:
-                                    - heading
-                                    - text
-                                    - list
-                            media:
-                                label: Media
-                                type: group
-                                fieldsets:
-                                    - image
-                                    - gallery
-                            misc:
-                                label: Verschiedenes
-                                type: group
-                                fieldsets:
-                                    - table
-                                    - line
-                                    - markdown
-
-    sidebar:
-        width: 1/3
-        sections:
+                            - heading
+                            - text
+                            - list
+                    media:
+                        label: Media
+                        type: group
+                        fieldsets:
+                            - image
+                            - gallery
+                    misc:
+                        label: Verschiedenes
+                        type: group
+                        fieldsets:
+                            - table
+                            - line
+                            - markdown
             pages:
                 type: pages
                 label: Seiten
                 template: default
-            files:
-                label: Bilder
-                type: files
-                uploads: false
-                #    query: site.children.images
-                layout: cards
-                size: tiny
-                image:
-                    cover: false
-                    back: pattern
-                    ratio: 1/1

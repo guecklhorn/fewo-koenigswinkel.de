@@ -182,7 +182,8 @@ tabs:
                     random:
                         type: files
                         label: Zufallsbilder
-                        query: site.images.filterBy('extension', '!=', 'svg')
+                        query: page('pictures').pictures.toFiles
+                        uploads: false
                         layout: cards
                         size: large
                         image:

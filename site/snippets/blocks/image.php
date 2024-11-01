@@ -12,6 +12,8 @@ if ($block->location() == 'web') {
     $src = $block->src()->esc();
 } elseif ($image = $block->image()->toFile()) {
     $alt = $alt->or($image->alt());
+    $caption = $caption->or($image->caption());
+    $link = $image->link();
     $src = $image;
 }
 
@@ -19,10 +21,11 @@ if ($block->location() == 'web') {
 <?php if ($src): ?>
 <figure class="figure"<?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?>>
     <?php if ($link->isNotEmpty()): ?>
-    <a href="<?= Str::esc($link->toUrl()) ?>">
+    <a href="<?= Str::esc($link->toUrl()) ?>"
+        target="_blank">
         <img src="<?= $src->thumb('content-placeholder')->url() ?>"
             data-src="<?= $src->thumb('content')->url() ?>"
-            class="lazyload"
+            class="lazyload not-prose"
             alt="<?= $alt->esc() ?>"
             width="<?= $src->width() ?>"
             height="<?= $src->height() ?>">
