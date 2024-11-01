@@ -2,7 +2,7 @@
     if ($page->banner()->isNotEmpty()) {
         $image = $page->banner()->toFile();
     } else {
-        $image = $site->images()->shuffle()->first();
+        $image = $site->random()->toFiles()->shuffle()->first();
     }
 ?>
 
