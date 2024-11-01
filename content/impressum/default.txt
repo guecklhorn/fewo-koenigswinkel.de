@@ -2,32 +2,15 @@ Title: Impressum
 
 ----
 
+Banner: 
+
+----
+
 Subline: 
 
 ----
 
-Text:
-
-## Angaben gemäß § 5 TMG
-**Renate und Herbert Mader**
-Fasanenweg 23
-89362 Offingen/Donau
-
-### Vertreten durch
-Renate und Herbert Mader
-Telefon:  (tel: 08224 804258 text: 08224 804258 title: Rufen Sie uns an)
-E-Mail: (email: info@fewo-koenigswinkel.de text: info@fewo-koenigswinkel.de title: E-Mail an info@fewo-koenigswinkel.de senden)
-
-### Redaktionell verantwortlich
-Renate und Herbert Mader
-Fasanenweg 23
-89362 Offingen/Donau
-
-### Verbraucherstreitbeilegung / Universalschlichtungsstelle
-Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
-
-## Umsetzung
-(link: https://guecklhorn.com/ text: guecklhorn.com target: _blank)
+Block: [{"content":{"text":"## Angaben gemäß § 5 TMG\n**Renate und Herbert Mader**\nFasanenweg 23\n89362 Offingen/Donau\n\n### Vertreten durch\nRenate und Herbert Mader\nTelefon:  (tel: 08224 804258 text: 08224 804258 title: Rufen Sie uns an)\nE-Mail: (email: info@fewo-koenigswinkel.de text: info@fewo-koenigswinkel.de title: E-Mail an info@fewo-koenigswinkel.de senden)\n\n### Redaktionell verantwortlich\nRenate und Herbert Mader\nFasanenweg 23\n89362 Offingen/Donau\n\n### Verbraucherstreitbeilegung / Universalschlichtungsstelle\nWir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.\n\n## Umsetzung\n(link: https://guecklhorn.com/ text: guecklhorn.com target: _blank)"},"id":"f3cd54a1-ae65-40ca-92c6-5e8bc25777fe","isHidden":false,"type":"markdown"}]
 
 ----
 

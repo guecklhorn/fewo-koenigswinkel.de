@@ -131,19 +131,19 @@ tabs:
                     toggleContact:
                         label: Kontakt-Box anzeigen
                         type: toggle
-                        width: 1/4
+                        width: 1/2
                     toggleEvent:
-                        label: Termin-Box anzeigen
+                        label: Neuigkeiten-Box anzeigen
                         type: toggle
-                        width: 1/4
+                        width: 1/2
                     toggleLink:
                         label: Link-Box anzeigen
                         type: toggle
-                        width: 1/4
+                        width: 1/2
                     toggleWheater:
                         label: Wetter anzeigen
                         type: toggle
-                        width: 1/4
+                        width: 1/2
 
                     lineRight:
                         type: line
@@ -151,6 +151,13 @@ tabs:
                     settings:
                         label: Globale Einstellungen
                         type: headline
+                    logo:
+                        type: files
+                        label: Logo
+                        multiple: false
+                        query: site.images.template("logo")
+                        uploads:
+                            template: logo
                     email:
                         label: E-Mail-Adresse
                         type: email
@@ -175,6 +182,7 @@ tabs:
                     random:
                         type: files
                         label: Zufallsbilder
+                        query: site.random.toFiles
                         layout: cards
                         size: large
                         image:

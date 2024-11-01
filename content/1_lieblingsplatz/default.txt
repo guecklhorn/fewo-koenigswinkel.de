@@ -10,27 +10,7 @@ Subline: Nicht Daheim - und doch Zuhause
 
 ----
 
-Text:
-
-Ihre Ferienwohnung Königswinkel "Lieblingsplatz" mit sonnigem Süd/West-Balkon.
-Liebevoll eingerichtete Nichtraucher-Fewo für 2 Gäste - Preise inklusive Fahrrad/Autogarage.
-Die Ferienwohnung befindet sich in einer kleinen, gepflegten Wohnanlage, idyllisch gelegen in Osterreinen, einem Ortsteil der Gemeinde Rieden am Forggensee, 5 km von Füssen entfernt im sog. "Schlosspark" im schönen Ostallgäu.
-
-(image: img_20210527_124218.jpg)
-
-(image: img_20210527_124637.jpg)
-
-Treten Sie auf den großen Balkon der Fewo Königswinkel "Lieblingsplatz" und genießen Sie den Panoramablick über die Allgäuer Alpen und den Forggensee. Die absolut ruhige und sonnige Lage garantiert Urlaub, wie er sein soll. Sie werden verzaubert sein von dem herrlichen Ausblick, an den Sie sich im Alltag immer wieder gerne erinnern werden.
-
-(image: aussicht-sueden.jpg)
-
-(image: hausansicht-von-sueden.jpg)
-
-(image: schlafzimmer-lieblingsplatz.jpg)
-
-(image: wohnzimmer-mit-sofa-lieblingsplatz.jpg)
-
-(image: die-beste-zeit-ist-jetzt.jpg)
+Block: [{"content":{"text":"<p>Ihre Ferienwohnung Königswinkel \"Lieblingsplatz\" mit sonnigem Süd/West-Balkon.<br>Liebevoll eingerichtete Nichtraucher-Fewo für 2 Gäste - Preise inklusive Fahrrad/Autogarage. <br>Die Ferienwohnung befindet sich in einer kleinen, gepflegten Wohnanlage, idyllisch gelegen in Osterreinen, einem Ortsteil der Gemeinde Rieden am Forggensee, 5 km von Füssen entfernt im sog. \"Schlosspark\" im schönen Ostallgäu.</p>"},"id":"07503546-241a-4096-8cb8-e8b6c89350c1","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://ystDvPSx8KOvuV8T"],"src":"","alt":"Gemütliche Essecke","caption":"Gemütliche Essecke","link":"","ratio":"","crop":"false"},"id":"b65a6992-0e94-4d70-b96a-41c9ba61aba8","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://GRTpzIessoJ11trv"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"ee506b6d-346a-42c0-803f-b2e580ff679a","isHidden":false,"type":"image"},{"content":{"text":"<p>Treten Sie auf den großen Balkon der Fewo Königswinkel \"Lieblingsplatz\" und genießen Sie den Panoramablick über die Allgäuer Alpen und den Forggensee. Die absolut ruhige und sonnige Lage garantiert Urlaub, wie er sein soll. Sie werden verzaubert sein von dem herrlichen Ausblick, an den Sie sich im Alltag immer wieder gerne erinnern werden.</p>"},"id":"537da2dd-2fca-4e86-b02e-84ed11ca1fa2","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://E81BWWX95NlJKX9V"],"src":"","alt":"Blick auf den sonnigen Balkon","caption":"Blick auf den sonnigen Balkon","link":"","ratio":"","crop":"false"},"id":"61bdd079-d01c-41cb-b6b9-115e138369dc","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://ks6dOXr5w9uvBURo"],"src":"","alt":"Außenansicht vom See aus fotografiert","caption":"Außenansicht vom See aus fotografiert","link":"","ratio":"","crop":"false"},"id":"3d354257-9998-42bf-8041-b21e484dea14","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://2nISR1RMk2gYkW7P"],"src":"","alt":"Gemütliches Schlafzimmer","caption":"Gemütliches Schlafzimmer","link":"","ratio":"","crop":"false"},"id":"6beba458-6381-4439-ac1f-a45131309975","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://3pSH5OLfREpq8mbc"],"src":"","alt":"Wohnzimmerbereich","caption":"Wohnzimmerbereich","link":"","ratio":"","crop":"false"},"id":"b19bc504-6618-4eaf-84cf-ffce32aa1ce0","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://Cr2jKPZXwBNa1xjV"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"34a618b3-6179-49a9-a47a-1eaa419ad1c4","isHidden":false,"type":"image"}]
 
 ----
 

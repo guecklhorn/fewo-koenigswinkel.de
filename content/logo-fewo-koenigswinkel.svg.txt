@@ -1,0 +1,9 @@
+Alt: Fewo Königswinkel Logo
+
+----
+
+Uuid: MhNZBiPOzog0jS6H
+
+----
+
+Template: logo

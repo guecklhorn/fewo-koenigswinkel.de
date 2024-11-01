@@ -1,0 +1,9 @@
+title: Logo
+
+accept:
+    mime: image/svg+xml
+focus: false
+fields:
+    alt:
+        label: Alternative Text
+        type: text

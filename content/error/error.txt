@@ -10,12 +10,7 @@ Subline:
 
 ----
 
-Text:
-
-Die von Ihnen gesuchte Seite konnte leider nicht gefunden werden.
-Das tut uns leid! 
-
-(link: / text: Zurück zur Startseite)
+Block: [{"content":{"text":"Die von Ihnen gesuchte Seite konnte leider nicht gefunden werden.\nDas tut uns leid! \n\n(link: / text: Zurück zur Startseite)"},"id":"5cf260e1-6ae9-43f4-a5b8-fce318bff718","isHidden":false,"type":"markdown"}]
 
 ----
 

@@ -1,8 +1,8 @@
 title: Image
 
 accept:
-    mime: image/jpeg, image/png, image/svg+xml, application/pdf
-
+    mime: image/jpeg, image/png
+focus: false
 columns:
     main:
         width: 1/2

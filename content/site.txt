@@ -86,6 +86,10 @@ Togglewheater: true
 
 ----
 
+Logo: - file://MhNZBiPOzog0jS6H
+
+----
+
 Email: info@fewo-koenigswinkel.de
 
 ----

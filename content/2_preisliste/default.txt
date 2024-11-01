@@ -6,46 +6,15 @@ Banner: - file://thzhLB6ivTjrhvfp
 
 ----
 
-Subline: 
+Subline: Urlaub zu erschwinglichen Preisen
 
 ----
 
-Text:
+Block: [{"content":{"rows":[{"seasons":"Frühling","from":"2024-01-10","to":"2024-04-30","price":99.44,"dates":"10.01. – 30.04."},{"seasons":"Sommer","from":"2024-05-01","to":"2024-10-31","price":111.3,"dates":"01.05. – 31.10."},{"seasons":"Herbst","from":"2024-11-01","to":"2024-12-19","price":99,"dates":"01.11. – 19.12."},{"seasons":"Winter","from":"2024-12-20","to":"2024-01-09","price":111,"dates":"20.12. – 09.01."}]},"id":"79bfa213-d4a0-4cab-8595-4beeb12f375e","isHidden":false,"type":"table"},{"content":{"text":"<ul><li>Alle Preise gelten für 2 Personen pro Nacht</li><li>Anzahlung 100,- € pro angefangene Woche, Restzahlung 4 Wochen vor Reisebeginn</li><li>Kurtaxe: z.Zt. 1,20 € pro Nacht Erwachsene – 0,60 € pro Nacht Kind</li><li>Anreise nach Absprache/Abreise 10:00 Uhr oder nach Absprache</li><li>Kurzzeitbuchung in NS: 4-6 Nächte = Preise der Hauptsaison</li><li>Buchungen von weniger als 4 Nächten nicht möglich</li><li>Stornierungskosten: Rücktritt und Nichtanreise 90 % (sofern keine Wiedervermietung erfolgen konnte), vorzeitige Abreise 100 %. Wir empfehlen den Abschluss einer Reiserücktrittsversicherung. Rücktritt in Coronazeiten: sollte ein Beherbergungsverbot durch die Regierung kurzfristig zu Ihrem Reisetermin eingeführt werden, ist eine kostenlose Stornierung für Sie/uns selbstverständlich.</li><li>Wir legen Wert darauf, dass in der Wohnung nicht geraucht wird</li><li>Haustiere sind nicht erlaubt</li><li>Fahrrad/Autogarage kostenlos für die gesamte Buchungszeit</li><li>Gästekarte: Kostenfreies WLAN an der Touristeninfo Rieden/Forggensee - weitere WLAN-Hotspots unter www.allgäuwlan.de</li><li>Freie Fahrt mit Bus und Bahn - Information unter (link: <a href=\"https://www.schlosspark.de/urlaub-planen/wissenswertes/allgaeumobil\">https://www.schlosspark.de/urlaub-planen/wissenswertes/allgaeumobil</a> text: allgaeu-mobil.de)</li></ul>"},"id":"b83f77ec-663e-44f3-8f8d-9d2dbb41b018","isHidden":false,"type":"list"},{"content":{"level":"h3","text":"Informationen zur Buchung:"},"id":"860f90b3-712e-492a-9ca6-b7809949db0b","isHidden":false,"type":"heading"},{"content":{"text":"<p>Im Preis enthalten sind die Erstausstattung von Bett/Tischwäsche, Handtücher, Badetuch, die Kosten für Strom, Wasser, Heizung sowie die Endreinigung der Wohnung. </p><p>Falls Sie noch Fragen haben, rufen Sie uns doch einfach an oder sprechen Sie auf den Anrufbeantworter - wir rufen Sie gerne zurück!</p>"},"id":"4a9f90b9-61ff-41ae-bb17-cd5bde217635","isHidden":false,"type":"text"}]
 
-### Hauptsaison
-**01.05. - 31.10. und 20.12. - 09.01. des Jahres**
+----
 
-1-2 Gäste / Nacht
-inklusive Garage
-**111,- €**
-
----
-
-### Nebensaison
-**10.01. - 30.04. und 01.11. - 19.12. des Jahres**
-
-1-2 Gäste/ Nacht
-inklusive Garage
-**99,- €**
-
----
-
-Informationen zur Buchung:
-- Alle Preise gelten für 2 Personen pro Nacht
-- Anzahlung 100,- € pro angefangene Woche, Restzahlung 4 Wochen vor Reisebeginn
-- Kurtaxe: z.Zt. 1,20 € pro Nacht Erwachsene – 0,60 € pro Nacht Kind
-- Anreise nach Absprache/Abreise 10.00 Uhr oder nach Absprache
-- Kurzzeitbuchung in NS: 4-6 Nächte = Preise der Hauptsaison
-- Buchungen von weniger als 4 Nächten nicht möglich
-- Stornierungskosten: Rücktritt und Nichtanreise 90 % (sofern keine Wiedervermietung erfolgen konnte), vorzeitige Abreise 100 %. Wir empfehlen den Abschluss einer Reiserücktrittsversicherung. Rücktritt in Coronazeiten: sollte ein Beherbergungsverbot durch die Regierung kurzfristig zu Ihrem Reisetermin eingeführt werden, ist eine kostenlose Stornierung für Sie/uns selbstverständlich.
-- Wir legen Wert darauf, dass in der Wohnung nicht geraucht wird
-- Haustiere sind nicht erlaubt
-- Fahrrad/Autogarage kostenlos für die gesamte Buchungszeit
-- Gästekarte: Kostenfreies WLAN an der Touristeninfo Rieden/Forggensee - weitere WLAN-Hotspots unter www.allgäuwlan.de
-- Freie Fahrt mit Bus und Bahn - Information unter (link: https://www.schlosspark.de/urlaub-planen/wissenswertes/allgaeumobil text: allgaeu-mobil.de)
-
-Im Preis enthalten sind die Erstausstattung von Bett/Tischwäsche, Handtücher, Badetuch, die Kosten für Strom, Wasser, Heizung sowie die Endreinigung der Wohnung. 
-Falls Sie noch Fragen haben, rufen Sie uns doch einfach an oder sprechen Sie auf den Anrufbeantworter - wir rufen Sie gerne zurück!
+Text: 
 
 ----
 

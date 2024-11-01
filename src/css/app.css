@@ -148,6 +148,13 @@
     .cookie-box {
         @apply p-4 flex flex-col gap-4 text-center border-2 border-dashed border-gray bg-muted/50 text-gray justify-center;
     }
+
+    .table {
+        th,
+        td {
+            @apply p-4;
+        }
+    }
 }
 
 @layer utilities {

@@ -15,7 +15,7 @@
 
         <?php snippet('maps') ?>
 
-        <?= $page->text()->kirbytext() ?>
+        <?= $page->block()->toBlocks() ?>
 
         <?php snippet('calendar') ?>
     </article>
