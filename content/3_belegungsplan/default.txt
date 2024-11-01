@@ -2,7 +2,7 @@ Title: Belegungsplan
 
 ----
 
-Banner: - file://KTwrrfFsCbO9X0Qr
+Banner: - file://l7HGZLnpabOEM0x2
 
 ----
 
@@ -11,6 +11,10 @@ Subline:
 ----
 
 Block: 
+
+----
+
+Pages: 
 
 ----
 
