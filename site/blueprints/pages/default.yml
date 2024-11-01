@@ -34,7 +34,6 @@ sections:
                         type: group
                         fieldsets:
                             - image
-                            - gallery
                     misc:
                         label: Verschiedenes
                         type: group
@@ -42,7 +41,3 @@ sections:
                             - table
                             - line
                             - markdown
-            pages:
-                type: pages
-                label: Seiten
-                template: default
