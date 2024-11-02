@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd9771733fb97e22de72454dbac76f52",
+    "content-hash": "ed3c2c9e16071ab3c1e0d34c2b1d379a",
     "packages": [
         {
             "name": "afbora/kirby-minify-html",
@@ -473,6 +473,57 @@
                 }
             ],
             "time": "2020-12-28T12:54:39+00:00"
+        },
+        {
+            "name": "johannschopplich/kirby-locked-pages",
+            "version": "2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johannschopplich/kirby-locked-pages.git",
+                "reference": "c62d0edaee0f50ea2d2a9c386c0f00a05357479f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johannschopplich/kirby-locked-pages/zipball/c62d0edaee0f50ea2d2a9c386c0f00a05357479f",
+                "reference": "c62d0edaee0f50ea2d2a9c386c0f00a05357479f",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "@stable",
+                "getkirby/cms": "^3.9"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johann Schopplich",
+                    "email": "pkg@johannschopplich.com",
+                    "homepage": "https://johannschopplich.com"
+                }
+            ],
+            "description": "Password-protect pages for the Kirby CMS",
+            "homepage": "https://github.com/johannschopplich/kirby-locked-pages#readme",
+            "keywords": [
+                "kirby",
+                "panel",
+                "password",
+                "protect",
+                "secure"
+            ],
+            "support": {
+                "issues": "https://github.com/johannschopplich/kirby-locked-pages/issues",
+                "source": "https://github.com/johannschopplich/kirby-locked-pages/tree/v2.1.3"
+            },
+            "time": "2023-08-09T05:32:34+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -1505,12 +1556,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
