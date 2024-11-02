@@ -1,4 +1,4 @@
-<?php if ($site->toggleLink()->isTrue() && $site->news()->isNotEmpty()) :?>
+<?php if ($site->toggleLink()->isTrue() && $site->links()->isNotEmpty()) :?>
     <section class="text-center text-highlight border-2 rounded-xl overflow-hidden">
         <?php if ($site->linktitle()->isNotEmpty()) :?>
             <h2 class="p-4 bg-highlight text-white text-lg font-bold leading-tight"><?= $site->linktitle() ?></h2>
