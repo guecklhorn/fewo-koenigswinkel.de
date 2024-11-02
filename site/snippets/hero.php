@@ -15,7 +15,7 @@
         <?php endif ?>
     </div>
 
-    <figure class="figure !aspect-[16/9] lg:!aspect-[4/1] rounded-xl shadow">
+    <figure class="figure !aspect-[16/9] lg:!aspect-[4/1] rounded-xl shadow w-full">
         <img
             src="<?= $image->thumb('content-placeholder')->url() ?>"
             data-src="<?= $image->thumb('content')->url() ?>"

@@ -7,19 +7,19 @@
 
 <main class="container flex flex-col lg:grid grid-cols-2 grid-rows-3 gap-4 xl:gap-8 lg:aspect-video text-2xl">
     <section
-        class="hidden lg:block bg-gray rounded-xl shadow p-4 lg:p-8 row-span-1 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-200 duration-700 bg-center lg:bg-left-top overflow-hidden"
+        class="hidden lg:block bg-muted rounded-xl shadow p-4 lg:p-8 row-span-1 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-200 duration-700 bg-center lg:bg-left-top overflow-hidden"
         style="background-image: url('<?= $image ? $image->thumb('tiles')->url() : '' ?>');"
         data-animation="true">
     </section>
 
     <section
-        class="hidden lg:block bg-gray rounded-xl shadow p-4 lg:p-8 row-span-2 col-start-2 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-[400ms] duration-700 bg-center lg:bg-right-top overflow-hidden"
+        class="hidden lg:block bg-muted rounded-xl shadow p-4 lg:p-8 row-span-2 col-start-2 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-[400ms] duration-700 bg-center lg:bg-right-top overflow-hidden"
         style="background-image: url('<?= $image ? $image->thumb('tiles')->url() : '' ?>');"
         data-animation="true">
     </section>
 
     <section
-        class="bg-gray rounded-xl shadow p-4 lg:p-8 row-span-2 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-[600ms] duration-700 bg-center lg:bg-left-bottom overflow-hidden flex flex-col justify-end"
+        class="bg-muted rounded-xl shadow p-4 lg:p-8 row-span-2 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-[600ms] duration-700 bg-center lg:bg-left-bottom overflow-hidden flex flex-col justify-end"
         style="background-image: url('<?= $image ? $image->thumb('tiles')->url() : '' ?>');"
         data-animation="true">
         <?php if ($site->contact()->isNotEmpty() && $site->ToggleContact()->isTrue()) :?>
@@ -29,7 +29,7 @@
     </section>
 
     <section
-        class="bg-gray rounded-xl shadow p-4 lg:p-8 row-span-1 col-start-2 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-[800ms] duration-700 bg-center lg:bg-right-bottom overflow-hidden flex flex-col justify-center 2xl:justify-start"
+        class="bg-muted rounded-xl shadow p-4 lg:p-8 row-span-1 col-start-2 bg-no-repeat bg-cover lg:bg-[length:992px_576px] xl:bg-[length:1248px_720px] 2xl:bg-[length:1504px_864px] opacity-0 transition -translate-y-8 delay-[800ms] duration-700 bg-center lg:bg-right-bottom overflow-hidden flex flex-col justify-center 2xl:justify-start"
         style="background-image: url('<?= $image ? $image->thumb('tiles')->url() : '' ?>');"
         data-animation="true">
         <?php if ($site->toggleWheater()->isTrue() && isFeatureAllowed('checkwxapi')) :?>
