@@ -153,6 +153,9 @@ tabs:
                     settings:
                         label: Globale Einstellungen
                         type: headline
+                    copyright:
+                        label: Entstehungsjahr
+                        type: number
                     logo:
                         type: files
                         label: Logo
