@@ -17,12 +17,12 @@
 
     <figure class="figure !aspect-[16/9] lg:!aspect-[4/1] rounded-xl shadow w-full">
         <img
-            src="<?= $image->thumb('content-placeholder')->url() ?>"
-            data-src="<?= $image->thumb('content')->url() ?>"
+            src="<?= $image ? $image->thumb('content-placeholder')->url() : '' ?>"
+            data-src="<?= $image ? $image->thumb('content')->url() : '' ?>"
             class="lazyload"
-            alt="<?= $image->alt() ?>"
-            height="<?= $image->thumb('content')->height() ?>"
-            width="<?= $image->thumb('content')->width() ?>"
+            alt="<?= $image ? $image->alt() : '' ?>"
+            height="<?= $image ? $image->thumb('content')->height() : '' ?>"
+            width="<?= $image ? $image->thumb('content')->width() : '' ?>"
         >
     </figure>
 </header>
