@@ -14,7 +14,7 @@ oder reservieren Sie **(email: info@fewo-koenigswinkel.de text: per E-Mail title
 
 ----
 
-Wheatertitle: Das Wetter im Allgäu
+Wheatertitle: Das Wetter in Offingen
 
 ----
 
@@ -66,4 +66,7 @@ Description: Mit seinen Bergen, Burgen und Schlössern faszinierte der Königswi
 
 ----
 
-Random: 
+Random:
+
+- file://CBjkr7P1tUHUf4Qu
+- file://cA024CuadCBKhVEj

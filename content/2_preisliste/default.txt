@@ -2,7 +2,7 @@ Title: Preisliste
 
 ----
 
-Banner: - file://StYMap5Abww3yTZs
+Banner: 
 
 ----
 
