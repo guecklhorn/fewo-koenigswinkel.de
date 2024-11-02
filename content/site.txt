@@ -86,6 +86,10 @@ Togglewheater: true
 
 ----
 
+Copyright: 2018
+
+----
+
 Logo: - file://MhNZBiPOzog0jS6H
 
 ----
