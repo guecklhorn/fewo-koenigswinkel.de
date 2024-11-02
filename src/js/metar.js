@@ -67,7 +67,7 @@
     receiveData()
 })({
     key: '7e8cd8ce8020420bb01507e9dd', // API Key
-    airport: 'EDJA', // EDMA Augsburg, EDJA Memmingen
+    airport: 'EDMA', // EDMA Augsburg, EDJA Memmingen
     storageName: 'metar',
     cacheTTL: 30, // in minutes
     data: [
