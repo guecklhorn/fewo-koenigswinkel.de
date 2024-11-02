@@ -1,4 +1,4 @@
-Title: Ferienwohnung Königswinkel
+Title: Ferienwohnung Donau
 
 ----
 
@@ -24,8 +24,8 @@ Newstitle: Aktuelles aus Offingen
 
 News:
 
-- 
-  story: Fasching in Offingen
+-
+  story: Fasching in Offingen im Februar 2025
 
 ----
 
@@ -33,7 +33,12 @@ Linktitle: Sehenswürdigkeiten in der näheren Umgebung
 
 ----
 
-Links: 
+Links:
+
+-
+  title: Kino Offingen
+  url: https://kino-offingen.de/
+  description: Donau-Lichtspiele Offingen
 
 ----
 
@@ -50,6 +55,10 @@ Togglelink: true
 ----
 
 Togglewheater: true
+
+----
+
+Copyright: 2024
 
 ----
 
