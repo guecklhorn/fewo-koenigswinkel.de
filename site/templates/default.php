@@ -13,11 +13,13 @@
             <h2 class="!-mt-2 !mb-2"><?= $page->subline() ?></h2>
         <?php endif ?>
 
-        <?php snippet('maps') ?>
+        <!-- Karte deaktiviert -->
+        <!-- ?php snippet('maps') ? -->
 
         <?= $page->block()->toBlocks() ?>
 
-        <?php snippet('calendar') ?>
+        <!-- Belegungsplan deaktiviert -->
+        <!-- ?php snippet('calendar') ? -->
     </article>
 
     <?php snippet('aside-right') ?>
