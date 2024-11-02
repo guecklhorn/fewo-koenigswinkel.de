@@ -2,4 +2,24 @@ Title: Willkommen
 
 ----
 
+Banner: 
+
+----
+
+Subline: 
+
+----
+
+Block: 
+
+----
+
+Lockedpagesenable: true
+
+----
+
+Lockedpagespassword: donau
+
+----
+
 Uuid: RUYgXLKIygviyfWd
