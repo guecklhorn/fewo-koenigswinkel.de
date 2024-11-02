@@ -25,8 +25,7 @@
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
         "getkirby/cms": "^4.0",
         "afbora/kirby-minify-html": "^2.0",
-        "michnhokn/kirby3-cookie-banner": "1.0.9",
-        "johannschopplich/kirby-locked-pages": "^2.1"
+        "michnhokn/kirby3-cookie-banner": "1.0.9"
     },
     "config": {
         "allow-plugins": {

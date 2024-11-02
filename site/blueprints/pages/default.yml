@@ -41,4 +41,3 @@ sections:
                             - table
                             - line
                             - markdown
-            security: fields/locked-pages
