@@ -50,3 +50,7 @@ Icon
 /site/config/.license
 assets/css/*.css
 assets/js/*.js
+
+/kirby/*
+/node_modules/*
+/vendor/*
