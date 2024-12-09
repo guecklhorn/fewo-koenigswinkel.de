@@ -12,6 +12,8 @@ tasks:
       ddev version
     init: |
       ddev start || true
+      npm install
+      composer install
 
 vscode:
   extensions:
