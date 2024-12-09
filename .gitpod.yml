@@ -7,7 +7,8 @@
 tasks:
   - name: Install DDEV
     before: |
-      brew install ddev/ddev/ddev || curl -fsSL https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash
+      export DDEV_NONINTERACTIVE=true
+      curl -fsSL https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash
       ddev version
     init: |
       ddev start || true
