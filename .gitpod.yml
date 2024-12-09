@@ -8,7 +8,7 @@ tasks:
   - name: Setup Kirby-CMS
     init: >
       brew install ddev/ddev/ddev
-      ddev start
+    #  ddev start
     #  composer install
     #  npm install
     # command: npm run watch
