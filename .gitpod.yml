@@ -4,7 +4,7 @@ tasks:
       export DDEV_NONINTERACTIVE=true
       curl -fsSL https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash
       ddev version
-      apt-get update && apt-get install -y jq
+      sudo apt-get update && sudo apt-get install -y jq
     init: |
       ddev start || true
       npm install
