@@ -5,15 +5,13 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - name: Install DDEV
+  - name: Install and Start DDEV
     before: |
       export DDEV_NONINTERACTIVE=true
       curl -fsSL https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash
       ddev version
     init: |
       ddev start || true
-  - name: Start DDEV Services
-    command: ddev start
 
 vscode:
   extensions:
