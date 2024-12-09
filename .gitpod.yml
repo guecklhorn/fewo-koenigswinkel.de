@@ -5,10 +5,19 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - name: Setup Kirby-CMS
-    init: >
-      brew install ddev/ddev/ddev
-    #  ddev start
-    #  composer install
-    #  npm install
-    # command: npm run watch
+  - name: Install DDEV
+    before: |
+      brew install ddev/ddev/ddev || curl -fsSL https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash
+      ddev version
+    init: |
+      ddev start || true
+  - name: Start DDEV Services
+    command: ddev start
+
+vscode:
+  extensions:
+    - drud.ddev
+
+ports:
+  - port: 8080
+    onOpen: open-browser
