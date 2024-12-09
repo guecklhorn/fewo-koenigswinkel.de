@@ -4,15 +4,9 @@ tasks:
       export DDEV_NONINTERACTIVE=true
       curl -fsSL https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash
       ddev version
-      sudo apt-get update && sudo apt-get install -y jq
     init: |
       ddev start || true
       npm install
       npm run build:css
       npm run build:js
       composer install
-    command: |
-      # Warte, bis der Build abgeschlossen ist, und öffne dann den Tab
-      URL=$(ddev describe -j | jq -r '.primary_urls[0]')
-      echo "Die Webseite ist bereit unter: $URL"
-      gp preview "$URL"
