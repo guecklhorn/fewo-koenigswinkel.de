@@ -8,4 +8,10 @@ tasks:
   - init: npm install
     command: npm run watch
 
-
+ports:
+  - port: 3000
+    onOpen: open-preview
+    name: Website
+    description: Website Preview
+    visibility: private
+    protocol: https
