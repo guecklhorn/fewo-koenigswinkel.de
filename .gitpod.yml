@@ -13,6 +13,8 @@ tasks:
     init: |
       ddev start || true
       npm install
+      npm run build:css
+      npm run build:js
       composer install
 
 vscode:
