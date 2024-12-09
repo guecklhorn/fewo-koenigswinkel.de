@@ -10,3 +10,5 @@ tasks:
       npm run build:css
       npm run build:js
       composer install
+    command: |
+      npm run watch
