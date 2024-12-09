@@ -5,13 +5,10 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: npm install
-    command: npm run watch
-
-ports:
-  - port: 3000
-    onOpen: open-preview
-    name: Website
-    description: Website Preview
-    visibility: private
-    protocol: https
+  - name: Setup Kirby-CMS
+    init: >
+      brew install ddev/ddev/ddev
+      ddev start
+    #  composer install
+    #  npm install
+    # command: npm run watch
